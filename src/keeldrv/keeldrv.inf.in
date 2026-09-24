@@ -1,0 +1,71 @@
+; KeelShim - Windows 7 user-mode UI translation for the Windows 10 kernel
+; Copyright (C) 2026 Kevin Dalli <projectkeel@gmail.com>
+;
+; This program is free software: you can redistribute it and/or modify
+; it under the terms of the GNU General Public License as published by
+; the Free Software Foundation, either version 3 of the License, or
+; (at your option) any later version.
+;
+; This program is distributed in the hope that it will be useful,
+; but WITHOUT ANY WARRANTY; without even the implied warranty of
+; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+; GNU General Public License for more details.
+;
+; You should have received a copy of the GNU General Public License
+; along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+; Installed in a test VM with sc create keeldrv type= kernel binPath= C:\Keel\keeldrv.sys && sc start keeldrv
+; This INF exists for inf2cat/attestation signing later. stampinf fills the version & date fields.
+
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = System
+ClassGuid   = {4d36e97d-e325-11ce-bfc1-08002be10318}
+Provider    = %ManufacturerName%
+DriverVer   =
+CatalogFile = keeldrv.cat
+PnpLockdown = 1
+
+[DestinationDirs]
+DefaultDestDir = 12  ; %SystemRoot%\system32\drivers
+
+[SourceDisksNames]
+1 = %DiskName%,,,""
+
+[SourceDisksFiles]
+keeldrv.sys = 1,,
+
+[Manufacturer]
+%ManufacturerName% = Standard,NT$ARCH$
+
+[Standard.NT$ARCH$]
+%keeldrv.DeviceDesc% = keeldrv_Device, Root\Keel
+
+[keeldrv_Device.NT]
+CopyFiles = Drivers_Dir
+
+[Drivers_Dir]
+keeldrv.sys
+
+[keeldrv_Device.NT.Services]
+AddService = keeldrv,%SPSVCINST_ASSOCSERVICE%, keeldrv_Service_Inst
+
+[keeldrv_Service_Inst]
+DisplayName    = %keeldrv.SVCDESC%
+ServiceType    = 1               ; SERVICE_KERNEL_DRIVER
+StartType      = 3               ; SERVICE_DEMAND_START
+ErrorControl   = 1               ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\keeldrv.sys
+
+[keeldrv_Device.NT.Wdf]
+KmdfService = keeldrv, keeldrv_wdfsect
+
+[keeldrv_wdfsect]
+KmdfLibraryVersion = $KMDFVERSION$
+
+[Strings]
+SPSVCINST_ASSOCSERVICE = 0x00000002
+ManufacturerName       = "Project Keel"
+DiskName               = "Keel Installation Disk"
+keeldrv.DeviceDesc     = "Keel Kernel Helper"
+keeldrv.SVCDESC        = "Keel Kernel Helper Service"

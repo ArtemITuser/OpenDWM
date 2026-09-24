@@ -1,0 +1,660 @@
+﻿CLSID	SubKey	Name	Type	Value
+{0142e4d0-fb7a-11dc-ba4a-000ffe7ab428}			String	Biometrics
+{0142e4d0-fb7a-11dc-ba4a-000ffe7ab428}		System.Software.TasksFileUrl	String	Internal
+{0142e4d0-fb7a-11dc-ba4a-000ffe7ab428}		InfoTip	ExpandString	@%SystemRoot%\System32\biocpl.dll,-2
+{0142e4d0-fb7a-11dc-ba4a-000ffe7ab428}		LocalizedString	ExpandString	@%SystemRoot%\System32\biocpl.dll,-1
+{0142e4d0-fb7a-11dc-ba4a-000ffe7ab428}		System.ControlPanel.EnableInSafeMode	DWord	3
+{0142e4d0-fb7a-11dc-ba4a-000ffe7ab428}		System.ApplicationName	String	Microsoft.BiometricDevices
+{0142e4d0-fb7a-11dc-ba4a-000ffe7ab428}		System.ControlPanel.Category	String	2
+{0142e4d0-fb7a-11dc-ba4a-000ffe7ab428}	DefaultIcon		ExpandString	%SystemRoot%\System32\biocpl.dll,-1
+{0142e4d0-fb7a-11dc-ba4a-000ffe7ab428}	InProcServer32		ExpandString	%SystemRoot%\System32\shdocvw.dll
+{0142e4d0-fb7a-11dc-ba4a-000ffe7ab428}	InProcServer32	ThreadingModel	String	Apartment
+{0142e4d0-fb7a-11dc-ba4a-000ffe7ab428}	Instance	CLSID	String	{328B0346-7EAF-4BBE-A479-7CB88A095F5B}
+{0142e4d0-fb7a-11dc-ba4a-000ffe7ab428}	Instance\InitPropertyBag	ResourceID	DWord	100
+{0142e4d0-fb7a-11dc-ba4a-000ffe7ab428}	Instance\InitPropertyBag	ResourceDLL	ExpandString	%SystemRoot%\System32\biocpl.dll
+{0142e4d0-fb7a-11dc-ba4a-000ffe7ab428}	ShellFolder	Attributes	DWord	-1610612736
+{0142e4d0-fb7a-11dc-ba4a-000ffe7ab428}	ShellFolder	WantsParseDisplayName	String	
+{025A5937-A6BE-4686-A844-36FE4BEC8B6D}			String	Power Options
+{025A5937-A6BE-4686-A844-36FE4BEC8B6D}		InfoTip	ExpandString	@%SystemRoot%\System32\powercpl.dll,-2
+{025A5937-A6BE-4686-A844-36FE4BEC8B6D}		LocalizedString	ExpandString	@%SystemRoot%\System32\powercpl.dll,-1
+{025A5937-A6BE-4686-A844-36FE4BEC8B6D}		System.ApplicationName	String	Microsoft.PowerOptions
+{025A5937-A6BE-4686-A844-36FE4BEC8B6D}		System.ControlPanel.Category	String	2,5
+{025A5937-A6BE-4686-A844-36FE4BEC8B6D}		System.ControlPanel.EnableInSafeMode	DWord	3
+{025A5937-A6BE-4686-A844-36FE4BEC8B6D}		System.Software.TasksFileUrl	String	Internal
+{025A5937-A6BE-4686-A844-36FE4BEC8B6D}	DefaultIcon		ExpandString	%SystemRoot%\System32\powercpl.dll,-1
+{025A5937-A6BE-4686-A844-36FE4BEC8B6D}	InProcServer32		ExpandString	%SystemRoot%\System32\shdocvw.dll
+{025A5937-A6BE-4686-A844-36FE4BEC8B6D}	InProcServer32	ThreadingModel	String	Apartment
+{025A5937-A6BE-4686-A844-36FE4BEC8B6D}	Instance	CLSID	String	{328B0346-7EAF-4BBE-A479-7CB88A095F5B}
+{025A5937-A6BE-4686-A844-36FE4BEC8B6D}	Instance\InitPropertyBag	ResourceDLL	ExpandString	%SystemRoot%\System32\powercpl.dll
+{025A5937-A6BE-4686-A844-36FE4BEC8B6D}	Instance\InitPropertyBag	ResourceID	DWord	100
+{025A5937-A6BE-4686-A844-36FE4BEC8B6D}	ShellFolder	Attributes	DWord	-1610612736
+{025A5937-A6BE-4686-A844-36FE4BEC8B6D}	ShellFolder	WantsParseDisplayName	String	
+{05d7b0f4-2121-4eff-bf6b-ed3f69b894d9}			String	Taskbar
+{05d7b0f4-2121-4eff-bf6b-ed3f69b894d9}		System.ApplicationName	String	Microsoft.NotificationAreaIcons
+{05d7b0f4-2121-4eff-bf6b-ed3f69b894d9}		System.ControlPanel.Category	String	0
+{05d7b0f4-2121-4eff-bf6b-ed3f69b894d9}		System.ControlPanel.EnableInSafeMode	DWord	3
+{05d7b0f4-2121-4eff-bf6b-ed3f69b894d9}		InfoTip	ExpandString	@%SystemRoot%\System32\taskbarcpl.dll,-2
+{05d7b0f4-2121-4eff-bf6b-ed3f69b894d9}		System.Software.TasksFileUrl	String	Internal
+{05d7b0f4-2121-4eff-bf6b-ed3f69b894d9}		LocalizedString	ExpandString	@%SystemRoot%\System32\taskbarcpl.dll,-1
+{05d7b0f4-2121-4eff-bf6b-ed3f69b894d9}	DefaultIcon		ExpandString	%SystemRoot%\System32\taskbarcpl.dll,-1
+{05d7b0f4-2121-4eff-bf6b-ed3f69b894d9}	InProcServer32		ExpandString	%SystemRoot%\System32\shdocvw.dll
+{05d7b0f4-2121-4eff-bf6b-ed3f69b894d9}	InProcServer32	ThreadingModel	String	Apartment
+{05d7b0f4-2121-4eff-bf6b-ed3f69b894d9}	Instance	CLSID	String	{328B0346-7EAF-4BBE-A479-7CB88A095F5B}
+{05d7b0f4-2121-4eff-bf6b-ed3f69b894d9}	Instance\InitPropertyBag	ResourceDLL	ExpandString	%SystemRoot%\System32\taskbarcpl.dll
+{05d7b0f4-2121-4eff-bf6b-ed3f69b894d9}	Instance\InitPropertyBag	ResourceID	DWord	100
+{05d7b0f4-2121-4eff-bf6b-ed3f69b894d9}	ShellFolder	Attributes	DWord	-1610612736
+{05d7b0f4-2121-4eff-bf6b-ed3f69b894d9}	ShellFolder	WantsParseDisplayName	String	
+{0DF44EAA-FF21-4412-828E-260A8728E7F1}			String	Taskbar and Start Menu
+{0DF44EAA-FF21-4412-828E-260A8728E7F1}		InfoTip	ExpandString	@%SystemRoot%\system32\shell32.dll,-30348
+{0DF44EAA-FF21-4412-828E-260A8728E7F1}		System.ApplicationName	String	Microsoft.TaskbarAndStartMenu
+{0DF44EAA-FF21-4412-828E-260A8728E7F1}		System.ControlPanel.Category	String	1
+{0DF44EAA-FF21-4412-828E-260A8728E7F1}		System.ControlPanel.EnableInSafeMode	DWord	3
+{0DF44EAA-FF21-4412-828E-260A8728E7F1}		System.Software.TasksFileUrl	String	Internal
+{0DF44EAA-FF21-4412-828E-260A8728E7F1}		LocalizedString	ExpandString	@%SystemRoot%\system32\shell32.dll,-32517
+{0DF44EAA-FF21-4412-828E-260A8728E7F1}	DefaultIcon		ExpandString	%SystemRoot%\system32\imageres.dll,-80
+{0DF44EAA-FF21-4412-828E-260A8728E7F1}	Shell\Open\Command		ExpandString	%SystemRoot%\System32\rundll32.exe shell32.dll,Options_RunDLL 1
+{0DF44EAA-FF21-4412-828E-260A8728E7F1}	ShellFolder	Attributes	DWord	0
+{1206F5F1-0569-412C-8FEC-3204630DFB70}			String	Credential Manager
+{1206F5F1-0569-412C-8FEC-3204630DFB70}		System.ApplicationName	String	Microsoft.CredentialManager
+{1206F5F1-0569-412C-8FEC-3204630DFB70}		System.ControlPanel.Category	DWord	9
+{1206F5F1-0569-412C-8FEC-3204630DFB70}		System.ControlPanel.EnableInSafeMode	DWord	3
+{1206F5F1-0569-412C-8FEC-3204630DFB70}		System.Software.TasksFileUrl	String	Internal
+{1206F5F1-0569-412C-8FEC-3204630DFB70}		LocalizedString	ExpandString	@%SystemRoot%\system32\Vault.dll,-1
+{1206F5F1-0569-412C-8FEC-3204630DFB70}		InfoTip	ExpandString	@%SystemRoot%\system32\Vault.dll,-2
+{1206F5F1-0569-412C-8FEC-3204630DFB70}	DefaultIcon		ExpandString	%SystemRoot%\system32\Vault.dll,-1
+{1206F5F1-0569-412C-8FEC-3204630DFB70}	InProcServer32		ExpandString	%SystemRoot%\System32\shdocvw.dll
+{1206F5F1-0569-412C-8FEC-3204630DFB70}	InProcServer32	ThreadingModel	String	Apartment
+{1206F5F1-0569-412C-8FEC-3204630DFB70}	Instance	CLSID	String	{328B0346-7EAF-4BBE-A479-7CB88A095F5B}
+{1206F5F1-0569-412C-8FEC-3204630DFB70}	Instance\InitPropertyBag	ResourceDLL	ExpandString	%SystemRoot%\system32\Vault.dll
+{1206F5F1-0569-412C-8FEC-3204630DFB70}	Instance\InitPropertyBag	ResourceID	DWord	100
+{1206F5F1-0569-412C-8FEC-3204630DFB70}	ShellFolder	Attributes	DWord	-1610612736
+{1206F5F1-0569-412C-8FEC-3204630DFB70}	ShellFolder	WantsParseDisplayName	String	
+{17cd9488-1228-4b2f-88ce-4298e93e0966}			String	Set User Defaults
+{17cd9488-1228-4b2f-88ce-4298e93e0966}		System.ApplicationName	String	Microsoft.DefaultPrograms
+{17cd9488-1228-4b2f-88ce-4298e93e0966}		System.ControlPanel.Category	String	8
+{17cd9488-1228-4b2f-88ce-4298e93e0966}		InfoTip	ExpandString	@%SystemRoot%\System32\sud.dll,-10
+{17cd9488-1228-4b2f-88ce-4298e93e0966}		LocalizedString	ExpandString	@%SystemRoot%\System32\sud.dll,-1
+{17cd9488-1228-4b2f-88ce-4298e93e0966}		System.Software.TasksFileUrl	String	Internal
+{17cd9488-1228-4b2f-88ce-4298e93e0966}	DefaultIcon		ExpandString	%SystemRoot%\System32\imageres.dll,-24
+{17cd9488-1228-4b2f-88ce-4298e93e0966}	InProcServer32		ExpandString	%SystemRoot%\System32\shdocvw.dll
+{17cd9488-1228-4b2f-88ce-4298e93e0966}	InProcServer32	ThreadingModel	String	Apartment
+{17cd9488-1228-4b2f-88ce-4298e93e0966}	Instance	CLSID	String	{328B0346-7EAF-4BBE-A479-7CB88A095F5B}
+{17cd9488-1228-4b2f-88ce-4298e93e0966}	Instance\InitPropertyBag	ResourceDLL	ExpandString	%SystemRoot%\System32\sud.dll
+{17cd9488-1228-4b2f-88ce-4298e93e0966}	Instance\InitPropertyBag	ResourceID	DWord	100
+{17cd9488-1228-4b2f-88ce-4298e93e0966}	ShellFolder	Attributes	DWord	-1610612320
+{17cd9488-1228-4b2f-88ce-4298e93e0966}	ShellFolder	WantsParseDisplayName	String	
+{241D7C96-F8BF-4F85-B01F-E2B043341A4B}			String	Workspaces Center
+{241D7C96-F8BF-4F85-B01F-E2B043341A4B}		System.ApplicationName	String	Microsoft.RemoteAppAndDesktopConnections
+{241D7C96-F8BF-4F85-B01F-E2B043341A4B}		System.ControlPanel.Category	DWord	0
+{241D7C96-F8BF-4F85-B01F-E2B043341A4B}		InfoTip	ExpandString	@%SystemRoot%\System32\tsworkspace.dll,-15301
+{241D7C96-F8BF-4F85-B01F-E2B043341A4B}		LocalizedString	ExpandString	@%SystemRoot%\System32\tsworkspace.dll,-15300
+{241D7C96-F8BF-4F85-B01F-E2B043341A4B}		System.Software.TasksFileUrl	String	Internal
+{241D7C96-F8BF-4F85-B01F-E2B043341A4B}	DefaultIcon		ExpandString	%SystemRoot%\System32\tsworkspace.dll
+{241D7C96-F8BF-4F85-B01F-E2B043341A4B}	InProcServer32		ExpandString	%SystemRoot%\System32\shdocvw.dll
+{241D7C96-F8BF-4F85-B01F-E2B043341A4B}	InProcServer32	ThreadingModel	String	Apartment
+{241D7C96-F8BF-4F85-B01F-E2B043341A4B}	Instance	CLSID	String	{328B0346-7EAF-4BBE-A479-7CB88A095F5B}
+{241D7C96-F8BF-4F85-B01F-E2B043341A4B}	Instance\InitPropertyBag	ResourceDLL	ExpandString	%SystemRoot%\System32\tsworkspace.dll
+{241D7C96-F8BF-4F85-B01F-E2B043341A4B}	Instance\InitPropertyBag	ResourceID	DWord	2000
+{241D7C96-F8BF-4F85-B01F-E2B043341A4B}	ShellFolder	Attributes	DWord	-1610612736
+{241D7C96-F8BF-4F85-B01F-E2B043341A4B}	ShellFolder	WantsParseDisplayName	String	
+{36eef7db-88ad-4e81-ad49-0e313f0c35f8}			String	Windows Update
+{36eef7db-88ad-4e81-ad49-0e313f0c35f8}		LocalizedString	ExpandString	@%SystemRoot%\system32\wucltux.dll,-1
+{36eef7db-88ad-4e81-ad49-0e313f0c35f8}		InfoTip	ExpandString	@%SystemRoot%\system32\wucltux.dll,-4
+{36eef7db-88ad-4e81-ad49-0e313f0c35f8}		System.ApplicationName	String	Microsoft.WindowsUpdate
+{36eef7db-88ad-4e81-ad49-0e313f0c35f8}		System.ControlPanel.Category	String	5,10
+{36eef7db-88ad-4e81-ad49-0e313f0c35f8}		System.Software.TasksFileUrl	String	Internal
+{36eef7db-88ad-4e81-ad49-0e313f0c35f8}	DefaultIcon		ExpandString	%SystemRoot%\system32\wucltux.dll,-1
+{36eef7db-88ad-4e81-ad49-0e313f0c35f8}	InProcServer32		ExpandString	%SystemRoot%\system32\shdocvw.dll
+{36eef7db-88ad-4e81-ad49-0e313f0c35f8}	InProcServer32	ThreadingModel	String	Apartment
+{36eef7db-88ad-4e81-ad49-0e313f0c35f8}	Instance	CLSID	String	{328B0346-7EAF-4BBE-A479-7CB88A095F5B}
+{36eef7db-88ad-4e81-ad49-0e313f0c35f8}	Instance\InitPropertyBag	ResourceDLL	ExpandString	%SystemRoot%\system32\wucltux.dll
+{36eef7db-88ad-4e81-ad49-0e313f0c35f8}	Instance\InitPropertyBag	ResourceID	DWord	100
+{36eef7db-88ad-4e81-ad49-0e313f0c35f8}	ShellFolder	Attributes	DWord	-1610612736
+{36eef7db-88ad-4e81-ad49-0e313f0c35f8}	ShellFolder	WantsParseDisplayName	String	
+{37efd44d-ef8d-41b1-940d-96973a50e9e0}			String	Windows Sidebar Properties
+{37efd44d-ef8d-41b1-940d-96973a50e9e0}		System.Software.TasksFileUrl	String	Internal
+{37efd44d-ef8d-41b1-940d-96973a50e9e0}		InfoTip	ExpandString	@%ProgramFiles%\Windows Sidebar\sidebar.exe,-11002
+{37efd44d-ef8d-41b1-940d-96973a50e9e0}		LocalizedString	ExpandString	@%ProgramFiles%\Windows Sidebar\sidebar.exe,-11003
+{37efd44d-ef8d-41b1-940d-96973a50e9e0}		System.ApplicationName	String	Microsoft.DesktopGadgets
+{37efd44d-ef8d-41b1-940d-96973a50e9e0}		System.ControlPanel.Category	String	1,8
+{37efd44d-ef8d-41b1-940d-96973a50e9e0}	DefaultIcon		ExpandString	%ProgramFiles%\Windows Sidebar\Sidebar.exe,-100
+{37efd44d-ef8d-41b1-940d-96973a50e9e0}	Shell\Open\Command		ExpandString	%ProgramFiles%\Windows Sidebar\sidebar.exe /showGadgets
+{38A98528-6CBF-4CA9-8DC0-B1E1D10F7B1B}		LocalizedString	ExpandString	@%SystemRoot%\system32\van.dll,-2400
+{38A98528-6CBF-4CA9-8DC0-B1E1D10F7B1B}		InfoTip	ExpandString	@%SystemRoot%\system32\van.dll,-2401
+{38A98528-6CBF-4CA9-8DC0-B1E1D10F7B1B}	DefaultIcon		ExpandString	%SystemRoot%\system32\imageres.dll,-171
+{38A98528-6CBF-4CA9-8DC0-B1E1D10F7B1B}	Shell\Open\Command		ExpandString	rundll32.exe %SystemRoot%\system32\van.dll,RunVAN
+{38A98528-6CBF-4CA9-8DC0-B1E1D10F7B1B}	Shell\OpenWithoutDiagnostics		String	Verb Friendly
+{38A98528-6CBF-4CA9-8DC0-B1E1D10F7B1B}	Shell\OpenWithoutDiagnostics	MUIVerb	ExpandString	@%systemroot%\system32\van.dll,-2402
+{38A98528-6CBF-4CA9-8DC0-B1E1D10F7B1B}	Shell\OpenWithoutDiagnostics	ProgrammaticAccessOnly	String	
+{38A98528-6CBF-4CA9-8DC0-B1E1D10F7B1B}	Shell\OpenWithoutDiagnostics\Command		ExpandString	rundll32.exe %SystemRoot%\system32\van.dll,RunVAN /disablediagnostics
+{38A98528-6CBF-4CA9-8DC0-B1E1D10F7B1B}	ShellFolder	Attributes	DWord	1048576
+{4026492F-2F69-46B8-B9BF-5654FC07E423}			String	Windows Firewall
+{4026492F-2F69-46B8-B9BF-5654FC07E423}		LocalizedString	String	@D:\Windows\system32\FirewallControlPanel.dll,-12122
+{4026492F-2F69-46B8-B9BF-5654FC07E423}		InfoTip	String	@D:\Windows\system32\FirewallControlPanel.dll,-12123
+{4026492F-2F69-46B8-B9BF-5654FC07E423}		System.Software.TasksFileUrl	String	Internal
+{4026492F-2F69-46B8-B9BF-5654FC07E423}		System.ApplicationName	String	Microsoft.WindowsFirewall
+{4026492F-2F69-46B8-B9BF-5654FC07E423}		System.ControlPanel.Category	String	5
+{4026492F-2F69-46B8-B9BF-5654FC07E423}		System.ControlPanel.EnableInSafeMode	String	2
+{4026492F-2F69-46B8-B9BF-5654FC07E423}	DefaultIcon		String	D:\Windows\system32\FirewallControlPanel.dll,-1
+{4026492F-2F69-46B8-B9BF-5654FC07E423}	InProcServer32		ExpandString	%SystemRoot%\System32\shdocvw.dll
+{4026492F-2F69-46B8-B9BF-5654FC07E423}	InProcServer32	ThreadingModel	String	Apartment
+{4026492F-2F69-46B8-B9BF-5654FC07E423}	Instance	CLSID	String	{328B0346-7EAF-4BBE-A479-7CB88A095F5B}
+{4026492F-2F69-46B8-B9BF-5654FC07E423}	Instance\InitPropertyBag	ResourceDLL	ExpandString	%SystemRoot%\System32\FirewallControlPanel.dll
+{4026492F-2F69-46B8-B9BF-5654FC07E423}	Instance\InitPropertyBag	ResourceID	DWord	100
+{4026492F-2F69-46B8-B9BF-5654FC07E423}	ShellFolder	Attributes	DWord	-1610612736
+{4026492F-2F69-46B8-B9BF-5654FC07E423}	ShellFolder	WantsParseDisplayName	String	
+{40419485-C444-4567-851A-2DD7BFA1684D}			String	Phone and Modem Control Panel
+{40419485-C444-4567-851A-2DD7BFA1684D}		System.ApplicationName	String	Microsoft.PhoneAndModem
+{40419485-C444-4567-851A-2DD7BFA1684D}		System.ControlPanel.Category	DWord	0
+{40419485-C444-4567-851A-2DD7BFA1684D}		InfoTip	ExpandString	@%SystemRoot%\System32\telephon.cpl,-2
+{40419485-C444-4567-851A-2DD7BFA1684D}		LocalizedString	ExpandString	@%SystemRoot%\System32\telephon.cpl,-1
+{40419485-C444-4567-851A-2DD7BFA1684D}		System.Software.TasksFileUrl	String	Internal
+{40419485-C444-4567-851A-2DD7BFA1684D}	DefaultIcon		ExpandString	%SystemRoot%\System32\telephon.cpl,-100
+{40419485-C444-4567-851A-2DD7BFA1684D}	Shell\Open\Command		ExpandString	%SystemRoot%\System32\rundll32.exe %SystemRoot%\System32\shell32.dll,Control_RunDLL %SystemRoot%\System32\telephon.cpl
+{58E3C745-D971-4081-9034-86E34B30836A}			String	Speech Recognition
+{58E3C745-D971-4081-9034-86E34B30836A}		System.Software.TasksFileUrl	String	Internal
+{58E3C745-D971-4081-9034-86E34B30836A}		InfoTip	ExpandString	@%SystemRoot%\System32\Speech\SpeechUX\speechuxcpl.dll,-2
+{58E3C745-D971-4081-9034-86E34B30836A}		LocalizedString	ExpandString	@%SystemRoot%\System32\Speech\SpeechUX\speechuxcpl.dll,-1
+{58E3C745-D971-4081-9034-86E34B30836A}		System.ApplicationName	String	Microsoft.SpeechRecognition
+{58E3C745-D971-4081-9034-86E34B30836A}		System.ControlPanel.Category	String	7
+{58E3C745-D971-4081-9034-86E34B30836A}	DefaultIcon		ExpandString	%SystemRoot%\System32\Speech\SpeechUX\speechuxcpl.dll,-1
+{58E3C745-D971-4081-9034-86E34B30836A}	InProcServer32		ExpandString	%SystemRoot%\System32\shdocvw.dll
+{58E3C745-D971-4081-9034-86E34B30836A}	InProcServer32	ThreadingModel	String	Apartment
+{58E3C745-D971-4081-9034-86E34B30836A}	Instance	CLSID	String	{328B0346-7EAF-4BBE-A479-7CB88A095F5B}
+{58E3C745-D971-4081-9034-86E34B30836A}	Instance\InitPropertyBag	ResourceID	DWord	100
+{58E3C745-D971-4081-9034-86E34B30836A}	Instance\InitPropertyBag	ResourceDLL	ExpandString	%SystemRoot%\System32\Speech\SpeechUX\speechuxcpl.dll
+{58E3C745-D971-4081-9034-86E34B30836A}	ShellFolder	Attributes	DWord	-1610612736
+{58E3C745-D971-4081-9034-86E34B30836A}	ShellFolder	WantsParseDisplayName	String	
+{5ea4f148-308c-46d7-98a9-49041b1dd468}			String	Mobility Center Control Panel
+{5ea4f148-308c-46d7-98a9-49041b1dd468}		System.Software.TasksFileUrl	String	Internal
+{5ea4f148-308c-46d7-98a9-49041b1dd468}		InfoTip	ExpandString	@%SystemRoot%\system32\mblctr.exe,-1003
+{5ea4f148-308c-46d7-98a9-49041b1dd468}		LocalizedString	ExpandString	@%SystemRoot%\system32\mblctr.exe,-1002
+{5ea4f148-308c-46d7-98a9-49041b1dd468}		System.ApplicationName	String	Microsoft.MobilityCenter
+{5ea4f148-308c-46d7-98a9-49041b1dd468}		System.ControlPanel.Category	String	2
+{5ea4f148-308c-46d7-98a9-49041b1dd468}	DefaultIcon		ExpandString	%SystemRoot%\system32\mblctr.exe,0
+{5ea4f148-308c-46d7-98a9-49041b1dd468}	Shell\Open\Command		ExpandString	%SystemRoot%\system32\mblctr.exe /open
+{5ea4f148-308c-46d7-98a9-49041b1dd468}	ShellFolder	Attributes	DWord	0
+{60632754-c523-4b62-b45c-4172da012619}			String	User Accounts
+{60632754-c523-4b62-b45c-4172da012619}		System.ApplicationName	String	Microsoft.UserAccounts
+{60632754-c523-4b62-b45c-4172da012619}		System.ControlPanel.Category	String	9
+{60632754-c523-4b62-b45c-4172da012619}		InfoTip	ExpandString	@%SystemRoot%\System32\usercpl.dll,-2
+{60632754-c523-4b62-b45c-4172da012619}		LocalizedString	ExpandString	@%SystemRoot%\System32\usercpl.dll,-1
+{60632754-c523-4b62-b45c-4172da012619}		System.ControlPanel.EnableInSafeMode	DWord	3
+{60632754-c523-4b62-b45c-4172da012619}		System.Software.TasksFileUrl	String	Internal
+{60632754-c523-4b62-b45c-4172da012619}	DefaultIcon		ExpandString	%SystemRoot%\System32\usercpl.dll,-1
+{60632754-c523-4b62-b45c-4172da012619}	InProcServer32		ExpandString	%SystemRoot%\System32\shdocvw.dll
+{60632754-c523-4b62-b45c-4172da012619}	InProcServer32	ThreadingModel	String	Apartment
+{60632754-c523-4b62-b45c-4172da012619}	Instance	CLSID	String	{328B0346-7EAF-4BBE-A479-7CB88A095F5B}
+{60632754-c523-4b62-b45c-4172da012619}	Instance\InitPropertyBag	ResourceDLL	ExpandString	%SystemRoot%\System32\usercpl.dll
+{60632754-c523-4b62-b45c-4172da012619}	Instance\InitPropertyBag	ResourceID	DWord	100
+{60632754-c523-4b62-b45c-4172da012619}	ShellFolder	Attributes	DWord	-1610612736
+{60632754-c523-4b62-b45c-4172da012619}	ShellFolder	WantsParseDisplayName	String	
+{62D8ED13-C9D0-4CE8-A914-47DD628FB1B0}			String	Region and Language
+{62D8ED13-C9D0-4CE8-A914-47DD628FB1B0}		System.ApplicationName	String	Microsoft.RegionAndLanguage
+{62D8ED13-C9D0-4CE8-A914-47DD628FB1B0}		System.ControlPanel.Category	DWord	6
+{62D8ED13-C9D0-4CE8-A914-47DD628FB1B0}		InfoTip	ExpandString	@%SystemRoot%\System32\intl.cpl,-2
+{62D8ED13-C9D0-4CE8-A914-47DD628FB1B0}		LocalizedString	ExpandString	@%SystemRoot%\System32\intl.cpl,-1
+{62D8ED13-C9D0-4CE8-A914-47DD628FB1B0}		System.Software.TasksFileUrl	String	Internal
+{62D8ED13-C9D0-4CE8-A914-47DD628FB1B0}	DefaultIcon		ExpandString	%SystemRoot%\System32\intl.cpl,-200
+{62D8ED13-C9D0-4CE8-A914-47DD628FB1B0}	Shell\Open\Command		ExpandString	%SystemRoot%\System32\rundll32.exe %SystemRoot%\System32\shell32.dll,Control_RunDLL %SystemRoot%\System32\intl.cpl
+{67CA7650-96E6-4FDD-BB43-A8E774F73A57}			String	HomeGroup Control Panel
+{67CA7650-96E6-4FDD-BB43-A8E774F73A57}		System.Software.TasksFileUrl	String	Internal
+{67CA7650-96E6-4FDD-BB43-A8E774F73A57}		InfoTip	ExpandString	@%SystemRoot%\System32\hgcpl.dll,-2
+{67CA7650-96E6-4FDD-BB43-A8E774F73A57}		LocalizedString	ExpandString	@%SystemRoot%\System32\hgcpl.dll,-1
+{67CA7650-96E6-4FDD-BB43-A8E774F73A57}		System.ControlPanel.EnableInSafeMode	DWord	2
+{67CA7650-96E6-4FDD-BB43-A8E774F73A57}		System.ApplicationName	String	Microsoft.HomeGroup
+{67CA7650-96E6-4FDD-BB43-A8E774F73A57}		System.ControlPanel.Category	String	3
+{67CA7650-96E6-4FDD-BB43-A8E774F73A57}	DefaultIcon		ExpandString	%SystemRoot%\System32\imageres.dll,-1013
+{67CA7650-96E6-4FDD-BB43-A8E774F73A57}	InProcServer32		ExpandString	%SystemRoot%\System32\shdocvw.dll
+{67CA7650-96E6-4FDD-BB43-A8E774F73A57}	InProcServer32	ThreadingModel	String	Apartment
+{67CA7650-96E6-4FDD-BB43-A8E774F73A57}	Instance	CLSID	String	{328B0346-7EAF-4BBE-A479-7CB88A095F5B}
+{67CA7650-96E6-4FDD-BB43-A8E774F73A57}	Instance\InitPropertyBag	ResourceID	DWord	100
+{67CA7650-96E6-4FDD-BB43-A8E774F73A57}	Instance\InitPropertyBag	ResourceDLL	ExpandString	%SystemRoot%\System32\hgcpl.dll
+{67CA7650-96E6-4FDD-BB43-A8E774F73A57}	ShellFolder	Attributes	DWord	-1610612736
+{67CA7650-96E6-4FDD-BB43-A8E774F73A57}	ShellFolder	WantsParseDisplayName	String	
+{6C8EEC18-8D75-41B2-A177-8831D59D2D50}			String	Mouse Control Panel
+{6C8EEC18-8D75-41B2-A177-8831D59D2D50}		System.ApplicationName	String	Microsoft.Mouse
+{6C8EEC18-8D75-41B2-A177-8831D59D2D50}		System.ControlPanel.Category	DWord	0
+{6C8EEC18-8D75-41B2-A177-8831D59D2D50}		InfoTip	ExpandString	@%SystemRoot%\System32\main.cpl,-101
+{6C8EEC18-8D75-41B2-A177-8831D59D2D50}		LocalizedString	ExpandString	@%SystemRoot%\System32\main.cpl,-100
+{6C8EEC18-8D75-41B2-A177-8831D59D2D50}		System.Software.TasksFileUrl	String	Internal
+{6C8EEC18-8D75-41B2-A177-8831D59D2D50}	DefaultIcon		ExpandString	%SystemRoot%\System32\main.cpl,-100
+{6C8EEC18-8D75-41B2-A177-8831D59D2D50}	Shell\Open\Command		ExpandString	%SystemRoot%\System32\rundll32.exe %SystemRoot%\System32\shell32.dll,Control_RunDLL %SystemRoot%\System32\main.cpl
+{6DFD7C5C-2451-11d3-A299-00C04F8EF6AF}			String	Folder Options
+{6DFD7C5C-2451-11d3-A299-00C04F8EF6AF}		InfoTip	ExpandString	@%SystemRoot%\system32\shell32.dll,-22924
+{6DFD7C5C-2451-11d3-A299-00C04F8EF6AF}		System.ApplicationName	String	Microsoft.FolderOptions
+{6DFD7C5C-2451-11d3-A299-00C04F8EF6AF}		System.ControlPanel.Category	DWord	1
+{6DFD7C5C-2451-11d3-A299-00C04F8EF6AF}		System.ControlPanel.EnableInSafeMode	DWord	3
+{6DFD7C5C-2451-11d3-A299-00C04F8EF6AF}		System.Software.TasksFileUrl	String	Internal
+{6DFD7C5C-2451-11d3-A299-00C04F8EF6AF}		LocalizedString	ExpandString	@%SystemRoot%\system32\shell32.dll,-22985
+{6DFD7C5C-2451-11d3-A299-00C04F8EF6AF}	DefaultIcon		ExpandString	%SystemRoot%\system32\imageres.dll,-166
+{6DFD7C5C-2451-11d3-A299-00C04F8EF6AF}	Shell\Open\Command		ExpandString	%SystemRoot%\System32\rundll32.exe shell32.dll,Options_RunDLL 0
+{6DFD7C5C-2451-11d3-A299-00C04F8EF6AF}	Shell\RunAs	HasLUAShield	String	
+{6DFD7C5C-2451-11d3-A299-00C04F8EF6AF}	Shell\RunAs\Command		ExpandString	%SystemRoot%\System32\rundll32.exe shell32.dll,Options_RunDLL 0
+{6DFD7C5C-2451-11d3-A299-00C04F8EF6AF}	Shell\RunAs\Command	Extended	String	
+{6DFD7C5C-2451-11d3-A299-00C04F8EF6AF}	ShellFolder	Attributes	DWord	0
+{725BE8F7-668E-4C7B-8F90-46BDB0936430}			String	Keyboard Control Panel
+{725BE8F7-668E-4C7B-8F90-46BDB0936430}		System.ApplicationName	String	Microsoft.Keyboard
+{725BE8F7-668E-4C7B-8F90-46BDB0936430}		System.ControlPanel.Category	DWord	0
+{725BE8F7-668E-4C7B-8F90-46BDB0936430}		InfoTip	ExpandString	@%SystemRoot%\System32\main.cpl,-103
+{725BE8F7-668E-4C7B-8F90-46BDB0936430}		LocalizedString	ExpandString	@%SystemRoot%\System32\main.cpl,-102
+{725BE8F7-668E-4C7B-8F90-46BDB0936430}		System.Software.TasksFileUrl	String	Internal
+{725BE8F7-668E-4C7B-8F90-46BDB0936430}	DefaultIcon		ExpandString	%SystemRoot%\System32\main.cpl,-200
+{725BE8F7-668E-4C7B-8F90-46BDB0936430}	Shell\Open\Command		ExpandString	%SystemRoot%\System32\rundll32.exe %SystemRoot%\System32\shell32.dll,Control_RunDLL %SystemRoot%\System32\main.cpl,@1
+{74246bfc-4c96-11d0-abef-0020af6b0b7a}			String	Device Manager
+{74246bfc-4c96-11d0-abef-0020af6b0b7a}		LocalizedString	ExpandString	@%SystemRoot%\System32\devmgr.dll,-4
+{74246bfc-4c96-11d0-abef-0020af6b0b7a}		InfoTip	ExpandString	@%SystemRoot%\System32\devmgr.dll,-5
+{74246bfc-4c96-11d0-abef-0020af6b0b7a}		System.ApplicationName	String	Microsoft.DeviceManager
+{74246bfc-4c96-11d0-abef-0020af6b0b7a}		System.ControlPanel.Category	String	0
+{74246bfc-4c96-11d0-abef-0020af6b0b7a}		System.ControlPanel.EnableInSafeMode	DWord	3
+{74246bfc-4c96-11d0-abef-0020af6b0b7a}		System.Software.TasksFileUrl	String	Internal
+{74246bfc-4c96-11d0-abef-0020af6b0b7a}	DefaultIcon		ExpandString	%SystemRoot%\system32\devmgr.dll,-201
+{74246bfc-4c96-11d0-abef-0020af6b0b7a}	InprocServer32		ExpandString	%SystemRoot%\System32\devmgr.dll
+{74246bfc-4c96-11d0-abef-0020af6b0b7a}	InprocServer32	ThreadingModel	String	Apartment
+{74246bfc-4c96-11d0-abef-0020af6b0b7a}	Shell\Open\Command		ExpandString	%SystemRoot%\system32\mmc.exe %SystemRoot%\system32\devmgmt.msc
+{74246bfc-4c96-11d0-abef-0020af6b0b7a}	Shell\RunAs	HasLUAShield	String	
+{74246bfc-4c96-11d0-abef-0020af6b0b7a}	Shell\RunAs\Command		ExpandString	%SystemRoot%\system32\mmc.exe %SystemRoot%\system32\devmgmt.msc
+{78CB147A-98EA-4AA6-B0DF-C8681F69341C}			String	CardSpace
+{78CB147A-98EA-4AA6-B0DF-C8681F69341C}		System.Software.TasksFileUrl	String	Internal
+{78CB147A-98EA-4AA6-B0DF-C8681F69341C}		InfoTip	String	@D:\Windows\System32\icardres.dll,-4098
+{78CB147A-98EA-4AA6-B0DF-C8681F69341C}		LocalizedString	String	@D:\Windows\System32\icardres.dll,-4097
+{78CB147A-98EA-4AA6-B0DF-C8681F69341C}		System.ApplicationName	String	Microsoft.CardSpace
+{78CB147A-98EA-4AA6-B0DF-C8681F69341C}		{305CA226-D286-468e-B848-2B2E8E697B74} 2	DWord	9
+{78CB147A-98EA-4AA6-B0DF-C8681F69341C}	DefaultIcon		String	D:\Windows\System32\icardres.dll,-4096
+{78CB147A-98EA-4AA6-B0DF-C8681F69341C}	Shell\Open\Command		String	D:\Windows\System32\rundll32.exe D:\Windows\System32\infocardcpl.cpl,ManageCardSpace_RunDll
+{78F3955E-3B90-4184-BD14-5397C15F1EFC}			String	Performance Information and Tools
+{78F3955E-3B90-4184-BD14-5397C15F1EFC}		System.Software.TasksFileUrl	String	Internal
+{78F3955E-3B90-4184-BD14-5397C15F1EFC}		InfoTip	ExpandString	@%SystemRoot%\System32\PerfCenterCPL.dll,-2
+{78F3955E-3B90-4184-BD14-5397C15F1EFC}		LocalizedString	ExpandString	@%SystemRoot%\System32\PerfCenterCPL.dll,-1
+{78F3955E-3B90-4184-BD14-5397C15F1EFC}		System.ApplicationName	String	Microsoft.PerformanceInformationAndTools
+{78F3955E-3B90-4184-BD14-5397C15F1EFC}		System.ControlPanel.Category	DWord	0
+{78F3955E-3B90-4184-BD14-5397C15F1EFC}	DefaultIcon		ExpandString	%SystemRoot%\System32\PerfCenterCPL.dll,-1
+{78F3955E-3B90-4184-BD14-5397C15F1EFC}	InProcServer32		ExpandString	%SystemRoot%\System32\shdocvw.dll
+{78F3955E-3B90-4184-BD14-5397C15F1EFC}	InProcServer32	ThreadingModel	String	Apartment
+{78F3955E-3B90-4184-BD14-5397C15F1EFC}	Instance	CLSID	String	{328B0346-7EAF-4BBE-A479-7CB88A095F5B}
+{78F3955E-3B90-4184-BD14-5397C15F1EFC}	Instance\InitPropertyBag	ResourceID	DWord	100
+{78F3955E-3B90-4184-BD14-5397C15F1EFC}	Instance\InitPropertyBag	ResourceDLL	ExpandString	%SystemRoot%\System32\PerfCenterCPL.dll
+{78F3955E-3B90-4184-BD14-5397C15F1EFC}	ShellFolder	Attributes	DWord	-1610612736
+{78F3955E-3B90-4184-BD14-5397C15F1EFC}	ShellFolder	WantsParseDisplayName	String	
+{7b81be6a-ce2b-4676-a29e-eb907a5126c5}			String	Programs and Features
+{7b81be6a-ce2b-4676-a29e-eb907a5126c5}		LocalizedString	ExpandString	@%systemroot%\system32\appwiz.cpl,-159
+{7b81be6a-ce2b-4676-a29e-eb907a5126c5}		InfoTip	ExpandString	@%systemroot%\system32\appwiz.cpl,-160
+{7b81be6a-ce2b-4676-a29e-eb907a5126c5}		System.ApplicationName	String	Microsoft.ProgramsAndFeatures
+{7b81be6a-ce2b-4676-a29e-eb907a5126c5}		System.ControlPanel.Category	String	8
+{7b81be6a-ce2b-4676-a29e-eb907a5126c5}		System.Software.TasksFileUrl	String	Internal
+{7b81be6a-ce2b-4676-a29e-eb907a5126c5}		System.ControlPanel.EnableInSafeMode	DWord	3
+{7b81be6a-ce2b-4676-a29e-eb907a5126c5}	DefaultIcon		ExpandString	imageres.dll,-87
+{7b81be6a-ce2b-4676-a29e-eb907a5126c5}	InProcServer32		ExpandString	%SystemRoot%\System32\appwiz.cpl
+{7b81be6a-ce2b-4676-a29e-eb907a5126c5}	InProcServer32	ThreadingModel	String	Apartment
+{7b81be6a-ce2b-4676-a29e-eb907a5126c5}	ShellFolder	Attributes	DWord	-1610612732
+{7b81be6a-ce2b-4676-a29e-eb907a5126c5}	ShellFolder	FolderType	String	{d674391b-52d9-4e07-834e-67c98610f39d}
+{80F3F1D5-FECA-45F3-BC32-752C152E456E}			String	Tablet PC Settings Control Panel
+{80F3F1D5-FECA-45F3-BC32-752C152E456E}		System.Software.TasksFileUrl	String	Internal
+{80F3F1D5-FECA-45F3-BC32-752C152E456E}		InfoTip	ExpandString	@%SystemRoot%\System32\tabletpc.cpl,-10102
+{80F3F1D5-FECA-45F3-BC32-752C152E456E}		LocalizedString	ExpandString	@%SystemRoot%\System32\tabletpc.cpl,-10100
+{80F3F1D5-FECA-45F3-BC32-752C152E456E}		System.ControlPanel.EnableInSafeMode	DWord	3
+{80F3F1D5-FECA-45F3-BC32-752C152E456E}		System.ApplicationName	String	Microsoft.TabletPCSettings
+{80F3F1D5-FECA-45F3-BC32-752C152E456E}		System.ControlPanel.Category	String	2,11
+{80F3F1D5-FECA-45F3-BC32-752C152E456E}	DefaultIcon		ExpandString	%SystemRoot%\System32\tabletpc.cpl,-10200
+{80F3F1D5-FECA-45F3-BC32-752C152E456E}	Shell\Open\Command		ExpandString	%SystemRoot%\System32\rundll32.exe %SystemRoot%\System32\shell32.dll,Control_RunDLL %SystemRoot%\System32\tabletpc.cpl @1
+{87D66A43-7B11-4A28-9811-C86EE395ACF7}			String	Indexing Options Control Panel
+{87D66A43-7B11-4A28-9811-C86EE395ACF7}		System.Software.TasksFileUrl	String	Internal
+{87D66A43-7B11-4A28-9811-C86EE395ACF7}		InfoTip	ExpandString	@%SystemRoot%\System32\srchadmin.dll,-602
+{87D66A43-7B11-4A28-9811-C86EE395ACF7}		LocalizedString	ExpandString	@%SystemRoot%\System32\srchadmin.dll,-601
+{87D66A43-7B11-4A28-9811-C86EE395ACF7}		System.ApplicationName	String	Microsoft.IndexingOptions
+{87D66A43-7B11-4A28-9811-C86EE395ACF7}		System.ControlPanel.Category	DWord	0
+{87D66A43-7B11-4A28-9811-C86EE395ACF7}	DefaultIcon		ExpandString	%SystemRoot%\System32\srchadmin.dll,-201
+{87D66A43-7B11-4A28-9811-C86EE395ACF7}	Shell\Open\Command		ExpandString	%SystemRoot%\System32\rundll32.exe %SystemRoot%\System32\shell32.dll,Control_RunDLL %SystemRoot%\System32\srchadmin.dll
+{8E908FC9-BECC-40f6-915B-F4CA0E70D03D}			String	Network and Sharing Center
+{8E908FC9-BECC-40f6-915B-F4CA0E70D03D}		System.ControlPanel.Category	String	3
+{8E908FC9-BECC-40f6-915B-F4CA0E70D03D}		System.ControlPanel.EnableInSafeMode	DWord	2
+{8E908FC9-BECC-40f6-915B-F4CA0E70D03D}		System.ApplicationName	String	Microsoft.NetworkAndSharingCenter
+{8E908FC9-BECC-40f6-915B-F4CA0E70D03D}		System.Software.TasksFileUrl	String	Internal
+{8E908FC9-BECC-40f6-915B-F4CA0E70D03D}		InfoTip	ExpandString	@%SystemRoot%\System32\netcenter.dll,-2
+{8E908FC9-BECC-40f6-915B-F4CA0E70D03D}		LocalizedString	ExpandString	@%SystemRoot%\System32\netcenter.dll,-1
+{8E908FC9-BECC-40f6-915B-F4CA0E70D03D}	DefaultIcon		ExpandString	%SystemRoot%\System32\netcenter.dll,-1
+{8E908FC9-BECC-40f6-915B-F4CA0E70D03D}	InProcServer32		ExpandString	%SystemRoot%\System32\shdocvw.dll
+{8E908FC9-BECC-40f6-915B-F4CA0E70D03D}	InProcServer32	ThreadingModel	String	Apartment
+{8E908FC9-BECC-40f6-915B-F4CA0E70D03D}	Instance	CLSID	String	{328B0346-7EAF-4BBE-A479-7CB88A095F5B}
+{8E908FC9-BECC-40f6-915B-F4CA0E70D03D}	Instance\InitPropertyBag	ResourceDLL	ExpandString	%SystemRoot%\System32\netcenter.dll
+{8E908FC9-BECC-40f6-915B-F4CA0E70D03D}	Instance\InitPropertyBag	ResourceID	DWord	100
+{8E908FC9-BECC-40f6-915B-F4CA0E70D03D}	ShellFolder	Attributes	DWord	-1610612736
+{8E908FC9-BECC-40f6-915B-F4CA0E70D03D}	ShellFolder	WantsParseDisplayName	String	
+{96AE8D84-A250-4520-95A5-A47A7E3C548B}			String	Parental Controls
+{96AE8D84-A250-4520-95A5-A47A7E3C548B}		System.Software.TasksFileUrl	String	Internal
+{96AE8D84-A250-4520-95A5-A47A7E3C548B}		InfoTip	ExpandString	@%SystemRoot%\System32\wpccpl.dll,-101
+{96AE8D84-A250-4520-95A5-A47A7E3C548B}		LocalizedString	ExpandString	@%SystemRoot%\System32\wpccpl.dll,-100
+{96AE8D84-A250-4520-95A5-A47A7E3C548B}		System.ApplicationName	String	Microsoft.ParentalControls
+{96AE8D84-A250-4520-95A5-A47A7E3C548B}		System.ControlPanel.Category	DWord	9
+{96AE8D84-A250-4520-95A5-A47A7E3C548B}	DefaultIcon		ExpandString	%SystemRoot%\System32\wpccpl.dll,-1
+{96AE8D84-A250-4520-95A5-A47A7E3C548B}	InProcServer32		ExpandString	%SystemRoot%\System32\shdocvw.dll
+{96AE8D84-A250-4520-95A5-A47A7E3C548B}	InProcServer32	ThreadingModel	String	Apartment
+{96AE8D84-A250-4520-95A5-A47A7E3C548B}	Instance	CLSID	String	{328B0346-7EAF-4BBE-A479-7CB88A095F5B}
+{96AE8D84-A250-4520-95A5-A47A7E3C548B}	Instance\InitPropertyBag	ResourceID	DWord	100
+{96AE8D84-A250-4520-95A5-A47A7E3C548B}	Instance\InitPropertyBag	ResourceDLL	ExpandString	%SystemRoot%\System32\wpccpl.dll
+{96AE8D84-A250-4520-95A5-A47A7E3C548B}	ShellFolder	Attributes	DWord	-1610612736
+{96AE8D84-A250-4520-95A5-A47A7E3C548B}	ShellFolder	WantsParseDisplayName	String	
+{9C60DE1E-E5FC-40f4-A487-460851A8D915}			String	AutoPlay
+{9C60DE1E-E5FC-40f4-A487-460851A8D915}		System.ApplicationName	String	Microsoft.AutoPlay
+{9C60DE1E-E5FC-40f4-A487-460851A8D915}		System.ControlPanel.Category	String	2,4
+{9C60DE1E-E5FC-40f4-A487-460851A8D915}		System.Software.TasksFileUrl	String	Internal
+{9C60DE1E-E5FC-40f4-A487-460851A8D915}		InfoTip	ExpandString	@%SystemRoot%\System32\autoplay.dll,-2
+{9C60DE1E-E5FC-40f4-A487-460851A8D915}		LocalizedString	ExpandString	@%SystemRoot%\System32\autoplay.dll,-1
+{9C60DE1E-E5FC-40f4-A487-460851A8D915}	DefaultIcon		ExpandString	%SystemRoot%\System32\autoplay.dll,-1
+{9C60DE1E-E5FC-40f4-A487-460851A8D915}	InProcServer32		ExpandString	%SystemRoot%\System32\shdocvw.dll
+{9C60DE1E-E5FC-40f4-A487-460851A8D915}	InProcServer32	ThreadingModel	String	Apartment
+{9C60DE1E-E5FC-40f4-A487-460851A8D915}	Instance	CLSID	String	{328B0346-7EAF-4BBE-A479-7CB88A095F5B}
+{9C60DE1E-E5FC-40f4-A487-460851A8D915}	Instance\InitPropertyBag	ResourceDLL	ExpandString	%SystemRoot%\System32\autoplay.dll
+{9C60DE1E-E5FC-40f4-A487-460851A8D915}	Instance\InitPropertyBag	ResourceID	DWord	100
+{9C60DE1E-E5FC-40f4-A487-460851A8D915}	ShellFolder	Attributes	DWord	-1610612736
+{9C60DE1E-E5FC-40f4-A487-460851A8D915}	ShellFolder	WantsParseDisplayName	String	
+{9C73F5E5-7AE7-4E32-A8E8-8D23B85255BF}			String	Sync Center Folder
+{9C73F5E5-7AE7-4E32-A8E8-8D23B85255BF}		System.Software.TasksFileUrl	String	Internal
+{9C73F5E5-7AE7-4E32-A8E8-8D23B85255BF}		InfoTip	ExpandString	@%SystemRoot%\System32\SyncCenter.dll,-3001
+{9C73F5E5-7AE7-4E32-A8E8-8D23B85255BF}		LocalizedString	ExpandString	@%SystemRoot%\System32\SyncCenter.dll,-3000
+{9C73F5E5-7AE7-4E32-A8E8-8D23B85255BF}		System.ApplicationName	String	Microsoft.SyncCenter
+{9C73F5E5-7AE7-4E32-A8E8-8D23B85255BF}		System.ControlPanel.Category	DWord	0
+{9C73F5E5-7AE7-4E32-A8E8-8D23B85255BF}	DefaultIcon		ExpandString	%SystemRoot%\System32\SyncCenter.dll,-1000
+{9C73F5E5-7AE7-4E32-A8E8-8D23B85255BF}	InProcServer32		ExpandString	%SystemRoot%\System32\SyncCenter.dll
+{9C73F5E5-7AE7-4E32-A8E8-8D23B85255BF}	InProcServer32	ThreadingModel	String	Apartment
+{9C73F5E5-7AE7-4E32-A8E8-8D23B85255BF}	ShellFolder	Attributes	DWord	-1610612736
+{9FE63AFD-59CF-4419-9775-ABCC3849F861}			String	System Recovery
+{9FE63AFD-59CF-4419-9775-ABCC3849F861}		System.Software.TasksFileUrl	String	Internal
+{9FE63AFD-59CF-4419-9775-ABCC3849F861}		InfoTip	ExpandString	@%SystemRoot%\System32\recovery.dll,-2
+{9FE63AFD-59CF-4419-9775-ABCC3849F861}		LocalizedString	ExpandString	@%SystemRoot%\System32\recovery.dll,-101
+{9FE63AFD-59CF-4419-9775-ABCC3849F861}		System.ControlPanel.EnableInSafeMode	DWord	3
+{9FE63AFD-59CF-4419-9775-ABCC3849F861}		System.ApplicationName	String	Microsoft.Recovery
+{9FE63AFD-59CF-4419-9775-ABCC3849F861}		System.ControlPanel.Category	String	0
+{9FE63AFD-59CF-4419-9775-ABCC3849F861}	DefaultIcon		ExpandString	%SystemRoot%\System32\imageres.dll,-1022
+{9FE63AFD-59CF-4419-9775-ABCC3849F861}	InProcServer32		ExpandString	%SystemRoot%\System32\shdocvw.dll
+{9FE63AFD-59CF-4419-9775-ABCC3849F861}	InProcServer32	ThreadingModel	String	Apartment
+{9FE63AFD-59CF-4419-9775-ABCC3849F861}	Instance	CLSID	String	{328B0346-7EAF-4BBE-A479-7CB88A095F5B}
+{9FE63AFD-59CF-4419-9775-ABCC3849F861}	Instance\InitPropertyBag	ResourceID	DWord	100
+{9FE63AFD-59CF-4419-9775-ABCC3849F861}	Instance\InitPropertyBag	ResourceDLL	ExpandString	%SystemRoot%\System32\recovery.dll
+{9FE63AFD-59CF-4419-9775-ABCC3849F861}	ShellFolder	Attributes	DWord	-1610612736
+{9FE63AFD-59CF-4419-9775-ABCC3849F861}	ShellFolder	WantsParseDisplayName	String	
+{A0275511-0E86-4ECA-97C2-ECD8F1221D08}			String	Infrared
+{A0275511-0E86-4ECA-97C2-ECD8F1221D08}		System.Software.TasksFileUrl	String	Internal
+{A0275511-0E86-4ECA-97C2-ECD8F1221D08}		InfoTip	ExpandString	@%SystemRoot%\System32\irprops.cpl,-2
+{A0275511-0E86-4ECA-97C2-ECD8F1221D08}		LocalizedString	ExpandString	@%SystemRoot%\System32\irprops.cpl,-1
+{A0275511-0E86-4ECA-97C2-ECD8F1221D08}		System.ApplicationName	String	Microsoft.Infrared
+{A0275511-0E86-4ECA-97C2-ECD8F1221D08}		System.ControlPanel.Category	String	2,3
+{A0275511-0E86-4ECA-97C2-ECD8F1221D08}	DefaultIcon		ExpandString	%SystemRoot%\System32\irprops.cpl,-129
+{A0275511-0E86-4ECA-97C2-ECD8F1221D08}	Shell\Open\Command		ExpandString	%SystemRoot%\System32\rundll32.exe %SystemRoot%\System32\shell32.dll,Control_RunDLL %SystemRoot%\System32\irprops.cpl
+{A3DD4F92-658A-410F-84FD-6FBBBEF2FFFE}			String	Internet Options
+{A3DD4F92-658A-410F-84FD-6FBBBEF2FFFE}		System.Software.TasksFileUrl	String	Internal
+{A3DD4F92-658A-410F-84FD-6FBBBEF2FFFE}		InfoTip	String	@D:\Windows\System32\inetcpl.cpl,-4313
+{A3DD4F92-658A-410F-84FD-6FBBBEF2FFFE}		LocalizedString	String	@D:\Windows\System32\inetcpl.cpl,-4312
+{A3DD4F92-658A-410F-84FD-6FBBBEF2FFFE}		System.ApplicationName	String	Microsoft.InternetOptions
+{A3DD4F92-658A-410F-84FD-6FBBBEF2FFFE}		System.ControlPanel.Category	DWord	3
+{A3DD4F92-658A-410F-84FD-6FBBBEF2FFFE}	DefaultIcon		String	D:\Windows\System32\inetcpl.cpl,-4487
+{A3DD4F92-658A-410F-84FD-6FBBBEF2FFFE}	Shell\Open\Command		String	D:\Windows\System32\rundll32.exe D:\Windows\System32\shell32.dll,Control_RunDLL D:\Windows\System32\inetcpl.cpl
+{A8A91A66-3A7D-4424-8D24-04E180695C7A}			String	Device Center
+{A8A91A66-3A7D-4424-8D24-04E180695C7A}		LocalizedString	ExpandString	@%systemroot%\system32\DeviceCenter.dll,-1000
+{A8A91A66-3A7D-4424-8D24-04E180695C7A}		InfoTip	ExpandString	@%systemroot%\system32\DeviceCenter.dll,-2000
+{A8A91A66-3A7D-4424-8D24-04E180695C7A}		System.ApplicationName	String	Microsoft.DevicesAndPrinters
+{A8A91A66-3A7D-4424-8D24-04E180695C7A}		SortOrderIndex	DWord	88
+{A8A91A66-3A7D-4424-8D24-04E180695C7A}		System.ControlPanel.Category	DWord	2
+{A8A91A66-3A7D-4424-8D24-04E180695C7A}		System.Software.TasksFileUrl	String	Internal
+{A8A91A66-3A7D-4424-8D24-04E180695C7A}	DefaultIcon		ExpandString	%systemroot%\system32\DeviceCenter.dll,-1
+{A8A91A66-3A7D-4424-8D24-04E180695C7A}	InProcServer32		ExpandString	%systemroot%\system32\DeviceCenter.dll
+{A8A91A66-3A7D-4424-8D24-04E180695C7A}	InProcServer32	LoadWithoutCOM	String	
+{A8A91A66-3A7D-4424-8D24-04E180695C7A}	InProcServer32	ThreadingModel	String	Both
+{A8A91A66-3A7D-4424-8D24-04E180695C7A}	ShellFolder	Attributes	DWord	-1610350592
+{A8A91A66-3A7D-4424-8D24-04E180695C7A}	ShellFolder	HideOnDesktopPerUser	String	
+{B2C761C6-29BC-4f19-9251-E6195265BAF1}			String	Color Management
+{B2C761C6-29BC-4f19-9251-E6195265BAF1}		System.Software.TasksFileUrl	String	Internal
+{B2C761C6-29BC-4f19-9251-E6195265BAF1}		InfoTip	ExpandString	@%systemroot%\system32\colorcpl.exe,-7
+{B2C761C6-29BC-4f19-9251-E6195265BAF1}		LocalizedString	ExpandString	@%systemroot%\system32\colorcpl.exe,-6
+{B2C761C6-29BC-4f19-9251-E6195265BAF1}		System.ApplicationName	String	Microsoft.ColorManagement
+{B2C761C6-29BC-4f19-9251-E6195265BAF1}		System.ControlPanel.Category	DWord	0
+{B2C761C6-29BC-4f19-9251-E6195265BAF1}	DefaultIcon		ExpandString	%systemroot%\system32\colorcpl.exe,-5
+{B2C761C6-29BC-4f19-9251-E6195265BAF1}	Shell\Open\Command		ExpandString	%systemroot%\system32\colorcpl.exe
+{B98A2BEA-7D42-4558-8BD1-832F41BAC6FD}			String	Backup And Restore
+{B98A2BEA-7D42-4558-8BD1-832F41BAC6FD}		System.Software.TasksFileUrl	String	Internal
+{B98A2BEA-7D42-4558-8BD1-832F41BAC6FD}		InfoTip	ExpandString	@%SystemRoot%\System32\sdcpl.dll,-100
+{B98A2BEA-7D42-4558-8BD1-832F41BAC6FD}		LocalizedString	ExpandString	@%SystemRoot%\System32\sdcpl.dll,-101
+{B98A2BEA-7D42-4558-8BD1-832F41BAC6FD}		System.ApplicationName	String	Microsoft.BackupAndRestore
+{B98A2BEA-7D42-4558-8BD1-832F41BAC6FD}		System.ControlPanel.Category	String	5
+{B98A2BEA-7D42-4558-8BD1-832F41BAC6FD}	DefaultIcon		ExpandString	%SystemRoot%\System32\sdcpl.dll,-1
+{B98A2BEA-7D42-4558-8BD1-832F41BAC6FD}	InProcServer32		ExpandString	%SystemRoot%\System32\shdocvw.dll
+{B98A2BEA-7D42-4558-8BD1-832F41BAC6FD}	InProcServer32	ThreadingModel	String	Apartment
+{B98A2BEA-7D42-4558-8BD1-832F41BAC6FD}	Instance	CLSID	String	{328B0346-7EAF-4BBE-A479-7CB88A095F5B}
+{B98A2BEA-7D42-4558-8BD1-832F41BAC6FD}	Instance\InitPropertyBag	ResourceID	DWord	20
+{B98A2BEA-7D42-4558-8BD1-832F41BAC6FD}	Instance\InitPropertyBag	ResourceDLL	ExpandString	%SystemRoot%\System32\sdcpl.dll
+{B98A2BEA-7D42-4558-8BD1-832F41BAC6FD}	ShellFolder	Attributes	DWord	-1610612736
+{B98A2BEA-7D42-4558-8BD1-832F41BAC6FD}	ShellFolder	WantsParseDisplayName	String	
+{BB06C0E4-D293-4f75-8A90-CB05B6477EEE}			String	System
+{BB06C0E4-D293-4f75-8A90-CB05B6477EEE}		System.ApplicationName	String	Microsoft.System
+{BB06C0E4-D293-4f75-8A90-CB05B6477EEE}		System.ControlPanel.Category	String	5
+{BB06C0E4-D293-4f75-8A90-CB05B6477EEE}		System.ControlPanel.EnableInSafeMode	DWord	3
+{BB06C0E4-D293-4f75-8A90-CB05B6477EEE}		InfoTip	ExpandString	@%SystemRoot%\System32\systemcpl.dll,-2
+{BB06C0E4-D293-4f75-8A90-CB05B6477EEE}		LocalizedString	ExpandString	@%SystemRoot%\System32\systemcpl.dll,-1
+{BB06C0E4-D293-4f75-8A90-CB05B6477EEE}		System.Software.TasksFileUrl	String	Internal
+{BB06C0E4-D293-4f75-8A90-CB05B6477EEE}	DefaultIcon		ExpandString	%SystemRoot%\System32\imageres.dll,-149
+{BB06C0E4-D293-4f75-8A90-CB05B6477EEE}	InProcServer32		ExpandString	%SystemRoot%\System32\shdocvw.dll
+{BB06C0E4-D293-4f75-8A90-CB05B6477EEE}	InProcServer32	ThreadingModel	String	Apartment
+{BB06C0E4-D293-4f75-8A90-CB05B6477EEE}	Instance	CLSID	String	{328B0346-7EAF-4BBE-A479-7CB88A095F5B}
+{BB06C0E4-D293-4f75-8A90-CB05B6477EEE}	Instance\InitPropertyBag	ResourceDLL	ExpandString	%SystemRoot%\System32\systemcpl.dll
+{BB06C0E4-D293-4f75-8A90-CB05B6477EEE}	Instance\InitPropertyBag	ResourceID	DWord	100
+{BB06C0E4-D293-4f75-8A90-CB05B6477EEE}	ShellFolder	Attributes	DWord	-1610612736
+{BB06C0E4-D293-4f75-8A90-CB05B6477EEE}	ShellFolder	WantsParseDisplayName	String	
+{BB64F8A7-BEE7-4E1A-AB8D-7D8273F7FDB6}			String	Action Center CPL
+{BB64F8A7-BEE7-4E1A-AB8D-7D8273F7FDB6}		System.Software.TasksFileUrl	String	Internal
+{BB64F8A7-BEE7-4E1A-AB8D-7D8273F7FDB6}		InfoTip	ExpandString	@%SystemRoot%\System32\ActionCenterCPL.dll,-2
+{BB64F8A7-BEE7-4E1A-AB8D-7D8273F7FDB6}		LocalizedString	ExpandString	@%SystemRoot%\System32\ActionCenterCPL.dll,-1
+{BB64F8A7-BEE7-4E1A-AB8D-7D8273F7FDB6}		System.ControlPanel.EnableInSafeMode	DWord	3
+{BB64F8A7-BEE7-4E1A-AB8D-7D8273F7FDB6}		System.ApplicationName	String	Microsoft.ActionCenter
+{BB64F8A7-BEE7-4E1A-AB8D-7D8273F7FDB6}		System.ControlPanel.Category	DWord	5
+{BB64F8A7-BEE7-4E1A-AB8D-7D8273F7FDB6}	DefaultIcon		ExpandString	%SystemRoot%\System32\ActionCenterCPL.dll,-1
+{BB64F8A7-BEE7-4E1A-AB8D-7D8273F7FDB6}	InProcServer32		ExpandString	%SystemRoot%\System32\shdocvw.dll
+{BB64F8A7-BEE7-4E1A-AB8D-7D8273F7FDB6}	InProcServer32	ThreadingModel	String	Apartment
+{BB64F8A7-BEE7-4E1A-AB8D-7D8273F7FDB6}	Instance	CLSID	String	{328B0346-7EAF-4BBE-A479-7CB88A095F5B}
+{BB64F8A7-BEE7-4E1A-AB8D-7D8273F7FDB6}	Instance\InitPropertyBag	ResourceID	DWord	100
+{BB64F8A7-BEE7-4E1A-AB8D-7D8273F7FDB6}	Instance\InitPropertyBag	ResourceDLL	ExpandString	%SystemRoot%\System32\ActionCenterCPL.dll
+{BB64F8A7-BEE7-4E1A-AB8D-7D8273F7FDB6}	ShellFolder	Attributes	DWord	-1610612736
+{BB64F8A7-BEE7-4E1A-AB8D-7D8273F7FDB6}	ShellFolder	WantsParseDisplayName	String	
+{BD84B380-8CA2-1069-AB1D-08000948F534}			String	Microsoft Windows Font Folder
+{BD84B380-8CA2-1069-AB1D-08000948F534}		AppID	String	{50d69d24-961d-4828-9d1c-5f4717f226d1}
+{BD84B380-8CA2-1069-AB1D-08000948F534}		DisplayName	ExpandString	%SystemRoot%\system32\fontext.dll,-199
+{BD84B380-8CA2-1069-AB1D-08000948F534}		Icon	ExpandString	%SystemRoot%\system32\fontext.dll,10
+{BD84B380-8CA2-1069-AB1D-08000948F534}		InfoTip	ExpandString	@%SystemRoot%\System32\Shell32.dll,-22920
+{BD84B380-8CA2-1069-AB1D-08000948F534}		LocalizedString	ExpandString	@%SystemRoot%\system32\shell32.dll,-22981
+{BD84B380-8CA2-1069-AB1D-08000948F534}		System.ApplicationName	String	Microsoft.Fonts
+{BD84B380-8CA2-1069-AB1D-08000948F534}		System.ControlPanel.Category	DWord	1
+{BD84B380-8CA2-1069-AB1D-08000948F534}		System.Software.TasksFileUrl	String	Internal
+{BD84B380-8CA2-1069-AB1D-08000948F534}	DefaultIcon		ExpandString	%SystemRoot%\System32\fontext.dll
+{BD84B380-8CA2-1069-AB1D-08000948F534}	Hierarchical		String	0
+{BD84B380-8CA2-1069-AB1D-08000948F534}	InProcServer32		ExpandString	%SystemRoot%\system32\fontext.dll
+{BD84B380-8CA2-1069-AB1D-08000948F534}	InProcServer32	ThreadingModel	String	Apartment
+{BD84B380-8CA2-1069-AB1D-08000948F534}	ShellFolder	Attributes	DWord	-1610612736
+{BD84B380-8CA2-1069-AB1D-08000948F534}	ShellFolder	WantsForParsing	String	
+{C555438B-3C23-4769-A71F-B6D3D9B6053A}			String	Display
+{C555438B-3C23-4769-A71F-B6D3D9B6053A}		System.ApplicationName	String	Microsoft.Display
+{C555438B-3C23-4769-A71F-B6D3D9B6053A}		System.ControlPanel.Category	String	1,2
+{C555438B-3C23-4769-A71F-B6D3D9B6053A}		InfoTip	ExpandString	@%SystemRoot%\System32\Display.dll,-2
+{C555438B-3C23-4769-A71F-B6D3D9B6053A}		LocalizedString	ExpandString	@%SystemRoot%\System32\Display.dll,-1
+{C555438B-3C23-4769-A71F-B6D3D9B6053A}		System.ControlPanel.EnableInSafeMode	DWord	3
+{C555438B-3C23-4769-A71F-B6D3D9B6053A}		System.Software.TasksFileUrl	String	Internal
+{C555438B-3C23-4769-A71F-B6D3D9B6053A}	DefaultIcon		ExpandString	%SystemRoot%\System32\Display.dll,-1
+{C555438B-3C23-4769-A71F-B6D3D9B6053A}	InProcServer32		ExpandString	%SystemRoot%\System32\shdocvw.dll
+{C555438B-3C23-4769-A71F-B6D3D9B6053A}	InProcServer32	ThreadingModel	String	Apartment
+{C555438B-3C23-4769-A71F-B6D3D9B6053A}	Instance	CLSID	String	{328B0346-7EAF-4BBE-A479-7CB88A095F5B}
+{C555438B-3C23-4769-A71F-B6D3D9B6053A}	Instance\InitPropertyBag	ResourceDLL	ExpandString	%SystemRoot%\System32\Display.dll
+{C555438B-3C23-4769-A71F-B6D3D9B6053A}	Instance\InitPropertyBag	ResourceID	DWord	101
+{C555438B-3C23-4769-A71F-B6D3D9B6053A}	Instance\InitPropertyBag	OverrideResourceID	DWord	100
+{C555438B-3C23-4769-A71F-B6D3D9B6053A}	ShellFolder	Attributes	DWord	-1610612736
+{C555438B-3C23-4769-A71F-B6D3D9B6053A}	ShellFolder	WantsParseDisplayName	String	
+{C58C4893-3BE0-4B45-ABB5-A63E4B8C8651}			String	Troubleshooting
+{C58C4893-3BE0-4B45-ABB5-A63E4B8C8651}		System.Software.TasksFileUrl	String	Internal
+{C58C4893-3BE0-4B45-ABB5-A63E4B8C8651}		InfoTip	ExpandString	@%SystemRoot%\System32\DiagCpl.dll,-15
+{C58C4893-3BE0-4B45-ABB5-A63E4B8C8651}		LocalizedString	ExpandString	@%SystemRoot%\System32\DiagCpl.dll,-1
+{C58C4893-3BE0-4B45-ABB5-A63E4B8C8651}		System.ControlPanel.EnableInSafeMode	DWord	3
+{C58C4893-3BE0-4B45-ABB5-A63E4B8C8651}		System.ApplicationName	String	Microsoft.Troubleshooting
+{C58C4893-3BE0-4B45-ABB5-A63E4B8C8651}		System.ControlPanel.Category	DWord	0
+{C58C4893-3BE0-4B45-ABB5-A63E4B8C8651}	DefaultIcon		ExpandString	%SystemRoot%\System32\DiagCpl.dll,-1
+{C58C4893-3BE0-4B45-ABB5-A63E4B8C8651}	InProcServer32		ExpandString	%SystemRoot%\System32\shdocvw.dll
+{C58C4893-3BE0-4B45-ABB5-A63E4B8C8651}	InProcServer32	ThreadingModel	String	Apartment
+{C58C4893-3BE0-4B45-ABB5-A63E4B8C8651}	Instance	CLSID	String	{328B0346-7EAF-4BBE-A479-7CB88A095F5B}
+{C58C4893-3BE0-4B45-ABB5-A63E4B8C8651}	Instance\InitPropertyBag	ResourceID	DWord	100
+{C58C4893-3BE0-4B45-ABB5-A63E4B8C8651}	Instance\InitPropertyBag	ResourceDLL	ExpandString	%SystemRoot%\System32\DiagCpl.dll
+{C58C4893-3BE0-4B45-ABB5-A63E4B8C8651}	ShellFolder	Attributes	DWord	-1610612736
+{C58C4893-3BE0-4B45-ABB5-A63E4B8C8651}	ShellFolder	WantsParseDisplayName	String	
+{CB1B7F8C-C50A-4176-B604-9E24DEE8D4D1}			String	Getting Started
+{CB1B7F8C-C50A-4176-B604-9E24DEE8D4D1}		System.AppUserModel.ID	String	Microsoft.Windows.GettingStarted
+{CB1B7F8C-C50A-4176-B604-9E24DEE8D4D1}		System.Software.TasksFileUrl	String	Internal
+{CB1B7F8C-C50A-4176-B604-9E24DEE8D4D1}		InfoTip	ExpandString	@%SystemRoot%\system32\OobeFldr.dll,-33057
+{CB1B7F8C-C50A-4176-B604-9E24DEE8D4D1}		LocalizedString	ExpandString	@%SystemRoot%\system32\OobeFldr.dll,-33056
+{CB1B7F8C-C50A-4176-B604-9E24DEE8D4D1}		System.ApplicationName	String	Microsoft.GettingStarted
+{CB1B7F8C-C50A-4176-B604-9E24DEE8D4D1}		System.ControlPanel.Category	String	0
+{CB1B7F8C-C50A-4176-B604-9E24DEE8D4D1}	DefaultIcon		ExpandString	%SystemRoot%\branding\shellbrd\shellbrd.dll
+{CB1B7F8C-C50A-4176-B604-9E24DEE8D4D1}	InProcServer32		ExpandString	%SystemRoot%\system32\OobeFldr.dll
+{CB1B7F8C-C50A-4176-B604-9E24DEE8D4D1}	InProcServer32	ThreadingModel	String	Apartment
+{CB1B7F8C-C50A-4176-B604-9E24DEE8D4D1}	ShellFolder	HideAsDeletePerUser	String	
+{CB1B7F8C-C50A-4176-B604-9E24DEE8D4D1}	ShellFolder	Attributes	DWord	536870916
+{CB1B7F8C-C50A-4176-B604-9E24DEE8D4D1}	ShellFolder	NoFileFolderJunction	DWord	1
+{D17D1D6D-CC3F-4815-8FE3-607E7D5D10B3}			String	Text to Speech Control Panel
+{D17D1D6D-CC3F-4815-8FE3-607E7D5D10B3}		System.ApplicationName	String	Microsoft.TextToSpeech
+{D17D1D6D-CC3F-4815-8FE3-607E7D5D10B3}		System.ControlPanel.Category	DWord	0
+{D17D1D6D-CC3F-4815-8FE3-607E7D5D10B3}		InfoTip	ExpandString	@%SystemRoot%\System32\Speech\SpeechUX\sapi.cpl,-2
+{D17D1D6D-CC3F-4815-8FE3-607E7D5D10B3}		LocalizedString	ExpandString	@%SystemRoot%\System32\Speech\SpeechUX\sapi.cpl,-1
+{D17D1D6D-CC3F-4815-8FE3-607E7D5D10B3}		System.Software.TasksFileUrl	String	Internal
+{D17D1D6D-CC3F-4815-8FE3-607E7D5D10B3}	DefaultIcon		ExpandString	%SystemRoot%\System32\Speech\SpeechUX\sapi.cpl,-138
+{D17D1D6D-CC3F-4815-8FE3-607E7D5D10B3}	Shell\Open\Command		ExpandString	%SystemRoot%\System32\rundll32.exe %SystemRoot%\System32\shell32.dll,Control_RunDLL %SystemRoot%\System32\Speech\SpeechUX\sapi.cpl
+{D20EA4E1-3957-11d2-A40B-0C5020524153}		InfoTip	ExpandString	@%SystemRoot%\system32\shell32.dll,-22921
+{D20EA4E1-3957-11d2-A40B-0C5020524153}		LocalizedString	ExpandString	@%SystemRoot%\system32\shell32.dll,-22982
+{D20EA4E1-3957-11d2-A40B-0C5020524153}			String	Administrative Tools
+{D20EA4E1-3957-11d2-A40B-0C5020524153}		System.ApplicationName	String	Microsoft.AdministrativeTools
+{D20EA4E1-3957-11d2-A40B-0C5020524153}		System.ControlPanel.Category	String	5
+{D20EA4E1-3957-11d2-A40B-0C5020524153}		System.ControlPanel.EnableInSafeMode	DWord	3
+{D20EA4E1-3957-11d2-A40B-0C5020524153}		System.Software.TasksFileUrl	String	Internal
+{D20EA4E1-3957-11d2-A40B-0C5020524153}	DefaultIcon		ExpandString	%SystemRoot%\System32\imageres.dll,-114
+{D20EA4E1-3957-11d2-A40B-0C5020524153}	InProcServer32		ExpandString	%SystemRoot%\System32\shdocvw.dll
+{D20EA4E1-3957-11d2-A40B-0C5020524153}	InProcServer32	ThreadingModel	String	Both
+{D20EA4E1-3957-11d2-A40B-0C5020524153}	Instance	CLSID	String	{0E5AAE11-A475-4c5b-AB00-C66DE400274E}
+{D20EA4E1-3957-11d2-A40B-0C5020524153}	Instance\InitPropertyBag	TargetKnownFolder	String	{D0384E7D-BAC3-4797-8F14-CBA229B392B5}
+{D20EA4E1-3957-11d2-A40B-0C5020524153}	Instance\InitPropertyBag	HelpTopic	String	mshelp://windows/?id=1A8DF084-BD58-4C60-8B62-C5BC3E08A09B
+{D20EA4E1-3957-11d2-A40B-0C5020524153}	Instance\InitPropertyBag	Attributes	String	0x00000011
+{D20EA4E1-3957-11d2-A40B-0C5020524153}	ShellFolder	Attributes	DWord	536871168
+{D20EA4E1-3957-11d2-A40B-0C5020524153}	ShellFolder	WantsFORPARSING	String	
+{D555645E-D4F8-4c29-A827-D93C859C4F2A}			String	Ease of Access
+{D555645E-D4F8-4c29-A827-D93C859C4F2A}		System.ApplicationName	String	Microsoft.EaseOfAccessCenter
+{D555645E-D4F8-4c29-A827-D93C859C4F2A}		System.ControlPanel.Category	String	7,1
+{D555645E-D4F8-4c29-A827-D93C859C4F2A}		System.ControlPanel.EnableInSafeMode	DWord	3
+{D555645E-D4F8-4c29-A827-D93C859C4F2A}		System.Software.TasksFileUrl	String	Internal
+{D555645E-D4F8-4c29-A827-D93C859C4F2A}		InfoTip	ExpandString	@%SystemRoot%\System32\accessibilitycpl.dll,-45
+{D555645E-D4F8-4c29-A827-D93C859C4F2A}		LocalizedString	ExpandString	@%SystemRoot%\System32\accessibilitycpl.dll,-10
+{D555645E-D4F8-4c29-A827-D93C859C4F2A}	DefaultIcon		ExpandString	%SystemRoot%\System32\accessibilitycpl.dll,-1
+{D555645E-D4F8-4c29-A827-D93C859C4F2A}	InProcServer32		ExpandString	%SystemRoot%\System32\shdocvw.dll
+{D555645E-D4F8-4c29-A827-D93C859C4F2A}	InProcServer32	ThreadingModel	String	Apartment
+{D555645E-D4F8-4c29-A827-D93C859C4F2A}	Instance	CLSID	String	{328B0346-7EAF-4BBE-A479-7CB88A095F5B}
+{D555645E-D4F8-4c29-A827-D93C859C4F2A}	Instance\InitPropertyBag	ResourceDLL	ExpandString	%SystemRoot%\System32\accessibilitycpl.dll
+{D555645E-D4F8-4c29-A827-D93C859C4F2A}	Instance\InitPropertyBag	ResourceID	DWord	100
+{D555645E-D4F8-4c29-A827-D93C859C4F2A}	ShellFolder	Attributes	DWord	-1610612736
+{D555645E-D4F8-4c29-A827-D93C859C4F2A}	ShellFolder	WantsParseDisplayName	String	
+{D8559EB9-20C0-410E-BEDA-7ED416AECC2A}			String	Windows Defender
+{D8559EB9-20C0-410E-BEDA-7ED416AECC2A}		System.Software.TasksFileUrl	String	Internal
+{D8559EB9-20C0-410E-BEDA-7ED416AECC2A}		InfoTip	ExpandString	@%ProgramFiles%\Windows Defender\MsMpRes.dll,-1176
+{D8559EB9-20C0-410E-BEDA-7ED416AECC2A}		LocalizedString	ExpandString	@%ProgramFiles%\Windows Defender\MsMpRes.dll,-104
+{D8559EB9-20C0-410E-BEDA-7ED416AECC2A}		System.ApplicationName	String	Microsoft.WindowsDefender
+{D8559EB9-20C0-410E-BEDA-7ED416AECC2A}		System.ControlPanel.Category	String	0
+{D8559EB9-20C0-410E-BEDA-7ED416AECC2A}	DefaultIcon		ExpandString	%ProgramFiles%\Windows Defender\MsMpRes.dll,-103
+{D8559EB9-20C0-410E-BEDA-7ED416AECC2A}	Shell\Open\Command		ExpandString	%ProgramFiles%\Windows Defender\MSASCui.exe
+{D8559EB9-20C0-410E-BEDA-7ED416AECC2A}	ShellFolder	Attributes	DWord	0
+{D9EF8727-CAC2-4e60-809E-86F80A666C91}			String	Secure Startup
+{D9EF8727-CAC2-4e60-809E-86F80A666C91}		System.Software.TasksFileUrl	String	Internal
+{D9EF8727-CAC2-4e60-809E-86F80A666C91}		InfoTip	ExpandString	@%SystemRoot%\System32\fvecpl.dll,-2
+{D9EF8727-CAC2-4e60-809E-86F80A666C91}		LocalizedString	ExpandString	@%SystemRoot%\System32\fvecpl.dll,-1
+{D9EF8727-CAC2-4e60-809E-86F80A666C91}		System.ControlPanel.EnableInSafeMode	DWord	3
+{D9EF8727-CAC2-4e60-809E-86F80A666C91}		System.ApplicationName	String	Microsoft.BitLockerDriveEncryption
+{D9EF8727-CAC2-4e60-809E-86F80A666C91}		System.ControlPanel.Category	String	10
+{D9EF8727-CAC2-4e60-809E-86F80A666C91}	DefaultIcon		ExpandString	%SystemRoot%\System32\fvecpl.dll,-1
+{D9EF8727-CAC2-4e60-809E-86F80A666C91}	InProcServer32		ExpandString	%SystemRoot%\system32\shdocvw.dll
+{D9EF8727-CAC2-4e60-809E-86F80A666C91}	InProcServer32	ThreadingModel	String	Apartment
+{D9EF8727-CAC2-4e60-809E-86F80A666C91}	Instance	CLSID	String	{328B0346-7EAF-4BBE-A479-7CB88A095F5B}
+{D9EF8727-CAC2-4e60-809E-86F80A666C91}	Instance\InitPropertyBag	ResourceID	DWord	100
+{D9EF8727-CAC2-4e60-809E-86F80A666C91}	Instance\InitPropertyBag	ResourceDLL	ExpandString	%SystemRoot%\System32\fvecpl.dll
+{D9EF8727-CAC2-4e60-809E-86F80A666C91}	ShellFolder	Attributes	DWord	671088640
+{D9EF8727-CAC2-4e60-809E-86F80A666C91}	ShellFolder	WantsParseDisplayName	String	
+{E2E7934B-DCE5-43C4-9576-7FE4F75E7480}			String	Date and Time Control Panel
+{E2E7934B-DCE5-43C4-9576-7FE4F75E7480}		System.ApplicationName	String	Microsoft.DateAndTime
+{E2E7934B-DCE5-43C4-9576-7FE4F75E7480}		System.ControlPanel.Category	DWord	6
+{E2E7934B-DCE5-43C4-9576-7FE4F75E7480}		InfoTip	ExpandString	@%SystemRoot%\System32\timedate.cpl,-52
+{E2E7934B-DCE5-43C4-9576-7FE4F75E7480}		LocalizedString	ExpandString	@%SystemRoot%\System32\timedate.cpl,-51
+{E2E7934B-DCE5-43C4-9576-7FE4F75E7480}		System.Software.TasksFileUrl	String	Internal
+{E2E7934B-DCE5-43C4-9576-7FE4F75E7480}		System.ControlPanel.EnableInSafeMode	DWord	3
+{E2E7934B-DCE5-43C4-9576-7FE4F75E7480}	DefaultIcon		ExpandString	%SystemRoot%\System32\timedate.cpl,-50
+{E2E7934B-DCE5-43C4-9576-7FE4F75E7480}	Shell\Open\Command		ExpandString	%SystemRoot%\System32\rundll32.exe %SystemRoot%\System32\shell32.dll,Control_RunDLL %SystemRoot%\System32\timedate.cpl
+{E7DE9B1A-7533-4556-9484-B26FB486475E}			String	Network Map
+{E7DE9B1A-7533-4556-9484-B26FB486475E}		System.ApplicationName	String	Microsoft.NetworkMap
+{E7DE9B1A-7533-4556-9484-B26FB486475E}		System.ControlPanel.Category	DWord	3
+{E7DE9B1A-7533-4556-9484-B26FB486475E}		System.Software.TasksFileUrl	String	Internal
+{E7DE9B1A-7533-4556-9484-B26FB486475E}		InfoTip	ExpandString	@%systemroot%\system32\NetworkMap.dll,-2
+{E7DE9B1A-7533-4556-9484-B26FB486475E}		LocalizedString	ExpandString	@%systemroot%\system32\NetworkMap.dll,-1
+{E7DE9B1A-7533-4556-9484-B26FB486475E}	DefaultIcon		ExpandString	%systemroot%\system32\NetworkMap.dll,0
+{E7DE9B1A-7533-4556-9484-B26FB486475E}	InProcServer32		ExpandString	%SystemRoot%\system32\shdocvw.dll
+{E7DE9B1A-7533-4556-9484-B26FB486475E}	InProcServer32	ThreadingModel	String	Apartment
+{E7DE9B1A-7533-4556-9484-B26FB486475E}	Instance	CLSID	String	{328B0346-7EAF-4BBE-A479-7CB88A095F5B}
+{E7DE9B1A-7533-4556-9484-B26FB486475E}	Instance\InitPropertyBag	ResourceDLL	ExpandString	%systemroot%\system32\NetworkMap.dll
+{E7DE9B1A-7533-4556-9484-B26FB486475E}	Instance\InitPropertyBag	ResourceID	DWord	100
+{E7DE9B1A-7533-4556-9484-B26FB486475E}	ShellFolder	Attributes	DWord	-1609564160
+{E7DE9B1A-7533-4556-9484-B26FB486475E}	ShellFolder	WantsParseDisplayName	String	
+{E95A4861-D57A-4be1-AD0F-35267E261739}			String	Windows SideShow
+{E95A4861-D57A-4be1-AD0F-35267E261739}		System.Software.TasksFileUrl	String	Internal
+{E95A4861-D57A-4be1-AD0F-35267E261739}		InfoTip	ExpandString	@%SystemRoot%\System32\AuxiliaryDisplayCpl.dll,-701
+{E95A4861-D57A-4be1-AD0F-35267E261739}		LocalizedString	ExpandString	@%SystemRoot%\System32\AuxiliaryDisplayCpl.dll,-1
+{E95A4861-D57A-4be1-AD0F-35267E261739}		System.ApplicationName	String	Microsoft.WindowsSideShow
+{E95A4861-D57A-4be1-AD0F-35267E261739}		System.ControlPanel.Category	String	2,8
+{E95A4861-D57A-4be1-AD0F-35267E261739}	DefaultIcon		ExpandString	%SystemRoot%\System32\AuxiliaryDisplayCpl.dll,-1
+{E95A4861-D57A-4be1-AD0F-35267E261739}	InProcServer32		ExpandString	%SystemRoot%\System32\shdocvw.dll
+{E95A4861-D57A-4be1-AD0F-35267E261739}	InProcServer32	ThreadingModel	String	Apartment
+{E95A4861-D57A-4be1-AD0F-35267E261739}	Instance	CLSID	String	{328B0346-7EAF-4BBE-A479-7CB88A095F5B}
+{E95A4861-D57A-4be1-AD0F-35267E261739}	Instance\InitPropertyBag	ResourceID	DWord	100
+{E95A4861-D57A-4be1-AD0F-35267E261739}	Instance\InitPropertyBag	ResourceDLL	ExpandString	%SystemRoot%\System32\AuxiliaryDisplayCpl.dll
+{E95A4861-D57A-4be1-AD0F-35267E261739}	ShellFolder	Attributes	DWord	-1610612736
+{E95A4861-D57A-4be1-AD0F-35267E261739}	ShellFolder	WantsParseDisplayName	String	
+{E9950154-C418-419e-A90A-20C5287AE24B}			String	Sensors
+{E9950154-C418-419e-A90A-20C5287AE24B}		System.Software.TasksFileUrl	String	Internal
+{E9950154-C418-419e-A90A-20C5287AE24B}		InfoTip	ExpandString	@%SystemRoot%\System32\SensorsCpl.dll,-701
+{E9950154-C418-419e-A90A-20C5287AE24B}		LocalizedString	ExpandString	@%SystemRoot%\System32\SensorsCpl.dll,-1
+{E9950154-C418-419e-A90A-20C5287AE24B}		System.ApplicationName	String	Microsoft.LocationAndOtherSensors
+{E9950154-C418-419e-A90A-20C5287AE24B}		System.ControlPanel.Category	String	2
+{E9950154-C418-419e-A90A-20C5287AE24B}	DefaultIcon		ExpandString	%SystemRoot%\System32\SensorsCpl.dll,-1
+{E9950154-C418-419e-A90A-20C5287AE24B}	InProcServer32		ExpandString	%SystemRoot%\System32\shdocvw.dll
+{E9950154-C418-419e-A90A-20C5287AE24B}	InProcServer32	ThreadingModel	String	Apartment
+{E9950154-C418-419e-A90A-20C5287AE24B}	Instance	CLSID	String	{328B0346-7EAF-4BBE-A479-7CB88A095F5B}
+{E9950154-C418-419e-A90A-20C5287AE24B}	Instance\InitPropertyBag	ResourceID	DWord	100
+{E9950154-C418-419e-A90A-20C5287AE24B}	Instance\InitPropertyBag	ResourceDLL	ExpandString	%SystemRoot%\System32\SensorsCpl.dll
+{E9950154-C418-419e-A90A-20C5287AE24B}	ShellFolder	Attributes	DWord	-1610612736
+{E9950154-C418-419e-A90A-20C5287AE24B}	ShellFolder	WantsParseDisplayName	String	
+{ED834ED6-4B5A-4bfe-8F11-A626DCB6A921}			String	Personalization Control Panel
+{ED834ED6-4B5A-4bfe-8F11-A626DCB6A921}		System.Software.TasksFileUrl	String	Internal
+{ED834ED6-4B5A-4bfe-8F11-A626DCB6A921}		InfoTip	ExpandString	@%SystemRoot%\System32\themecpl.dll,-2
+{ED834ED6-4B5A-4bfe-8F11-A626DCB6A921}		LocalizedString	ExpandString	@%SystemRoot%\System32\themecpl.dll,-1
+{ED834ED6-4B5A-4bfe-8F11-A626DCB6A921}		System.ApplicationName	String	Microsoft.Personalization
+{ED834ED6-4B5A-4bfe-8F11-A626DCB6A921}		System.ControlPanel.Category	DWord	1
+{ED834ED6-4B5A-4bfe-8F11-A626DCB6A921}	DefaultIcon		ExpandString	%SystemRoot%\System32\themecpl.dll,-1
+{ED834ED6-4B5A-4bfe-8F11-A626DCB6A921}	InProcServer32		ExpandString	%SystemRoot%\System32\shdocvw.dll
+{ED834ED6-4B5A-4bfe-8F11-A626DCB6A921}	InProcServer32	ThreadingModel	String	Apartment
+{ED834ED6-4B5A-4bfe-8F11-A626DCB6A921}	Instance	CLSID	String	{328B0346-7EAF-4BBE-A479-7CB88A095F5B}
+{ED834ED6-4B5A-4bfe-8F11-A626DCB6A921}	Instance\InitPropertyBag	ResourceID	DWord	100
+{ED834ED6-4B5A-4bfe-8F11-A626DCB6A921}	Instance\InitPropertyBag	ResourceDLL	ExpandString	%SystemRoot%\System32\themecpl.dll
+{ED834ED6-4B5A-4bfe-8F11-A626DCB6A921}	ShellFolder	Attributes	DWord	-1610612320
+{ED834ED6-4B5A-4bfe-8F11-A626DCB6A921}	ShellFolder	WantsParseDisplayName	String	
+{F2DDFC82-8F12-4CDD-B7DC-D4FE1425AA4D}			String	Sound Control Panel
+{F2DDFC82-8F12-4CDD-B7DC-D4FE1425AA4D}		System.ApplicationName	String	Microsoft.Sound
+{F2DDFC82-8F12-4CDD-B7DC-D4FE1425AA4D}		System.ControlPanel.Category	DWord	2
+{F2DDFC82-8F12-4CDD-B7DC-D4FE1425AA4D}		InfoTip	ExpandString	@%SystemRoot%\System32\mmsys.cpl,-301
+{F2DDFC82-8F12-4CDD-B7DC-D4FE1425AA4D}		LocalizedString	ExpandString	@%SystemRoot%\System32\mmsys.cpl,-300
+{F2DDFC82-8F12-4CDD-B7DC-D4FE1425AA4D}		System.Software.TasksFileUrl	String	Internal
+{F2DDFC82-8F12-4CDD-B7DC-D4FE1425AA4D}	DefaultIcon		ExpandString	%SystemRoot%\System32\mmsys.cpl,-100
+{F2DDFC82-8F12-4CDD-B7DC-D4FE1425AA4D}	Shell\Open\Command		ExpandString	%SystemRoot%\System32\rundll32.exe %SystemRoot%\System32\shell32.dll,Control_RunDLL %SystemRoot%\System32\mmsys.cpl
+{F82DF8F7-8B9F-442E-A48C-818EA735FF9B}			String	Pen and Touch Control Panel
+{F82DF8F7-8B9F-442E-A48C-818EA735FF9B}		System.Software.TasksFileUrl	String	Internal
+{F82DF8F7-8B9F-442E-A48C-818EA735FF9B}		InfoTip	ExpandString	@%SystemRoot%\System32\tabletpc.cpl,-10105
+{F82DF8F7-8B9F-442E-A48C-818EA735FF9B}		LocalizedString	ExpandString	@%SystemRoot%\System32\tabletpc.cpl,-10103
+{F82DF8F7-8B9F-442E-A48C-818EA735FF9B}		System.ControlPanel.EnableInSafeMode	DWord	3
+{F82DF8F7-8B9F-442E-A48C-818EA735FF9B}		System.ApplicationName	String	Microsoft.PenAndTouch
+{F82DF8F7-8B9F-442E-A48C-818EA735FF9B}		System.ControlPanel.Category	String	2,11
+{F82DF8F7-8B9F-442E-A48C-818EA735FF9B}	DefaultIcon		ExpandString	%SystemRoot%\System32\tabletpc.cpl,-10201
+{F82DF8F7-8B9F-442E-A48C-818EA735FF9B}	Shell\Open\Command		ExpandString	%SystemRoot%\System32\rundll32.exe %SystemRoot%\System32\shell32.dll,Control_RunDLL %SystemRoot%\System32\tabletpc.cpl @0

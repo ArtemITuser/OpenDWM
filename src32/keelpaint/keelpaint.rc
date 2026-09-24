@@ -1,0 +1,77 @@
+/*
+ * KeelShim - Windows 7 user-mode UI translation for the Windows 10 kernel
+ * Copyright (C) 2026 Kevin Dalli <projectkeel@gmail.com>
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+#include <windows.h>
+
+#define IDD_7Z          101
+#define IDD_7Z_NOCENTER 102
+#define IDD_7Z_DIALOGEX 103
+
+#define xc 184
+#define yc 96
+#define m 8
+#define bxs 64
+#define bys 16
+#define bxsDots 20
+#define xs (xc + m + m)
+#define ys (yc + m + m)
+#define bx1 (xs - m - bxs)
+#define bx2 (bx1 - m - bxs)
+#define by (ys - m - bys)
+
+IDD_7Z DIALOG 0, 0, xs, ys
+STYLE DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_VISIBLE
+CAPTION "keelpaint 7z-shaped"
+FONT 8, "MS Shell Dlg"
+BEGIN
+  LTEXT          "Destination folder:", 1001, m, m, xc, 8
+  EDITTEXT       1002, m, 21, xc - bxsDots - 12, 14, ES_AUTOHSCROLL
+  PUSHBUTTON     "...", 1003, xs - m - bxsDots, 20, bxsDots, bys, WS_GROUP
+  LTEXT          "current file line", 1004, m, 50, xc, 8
+  CONTROL        "", 1005, "msctls_progress32", WS_BORDER, m, 64, xc, 10
+  DEFPUSHBUTTON  "&Install", IDOK,    bx2, by, bxs, bys, WS_GROUP
+  PUSHBUTTON     "Cancel",  IDCANCEL, bx1, by, bxs, bys
+END
+
+IDD_7Z_NOCENTER DIALOG 0, 0, xs, ys
+STYLE WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_VISIBLE
+CAPTION "keelpaint 7z-shaped, no DS_CENTER"
+FONT 8, "MS Shell Dlg"
+BEGIN
+  LTEXT          "Destination folder:", 1001, m, m, xc, 8
+  EDITTEXT       1002, m, 21, xc - bxsDots - 12, 14, ES_AUTOHSCROLL
+  PUSHBUTTON     "...", 1003, xs - m - bxsDots, 20, bxsDots, bys, WS_GROUP
+  LTEXT          "current file line", 1004, m, 50, xc, 8
+  CONTROL        "", 1005, "msctls_progress32", WS_BORDER, m, 64, xc, 10
+  DEFPUSHBUTTON  "&Install", IDOK,    bx2, by, bxs, bys, WS_GROUP
+  PUSHBUTTON     "Cancel",  IDCANCEL, bx1, by, bxs, bys
+END
+
+IDD_7Z_DIALOGEX DIALOGEX 0, 0, xs, ys
+STYLE DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_VISIBLE
+CAPTION "keelpaint 7z-shaped, DIALOGEX"
+FONT 8, "MS Shell Dlg"
+BEGIN
+  LTEXT          "Destination folder:", 1001, m, m, xc, 8
+  EDITTEXT       1002, m, 21, xc - bxsDots - 12, 14, ES_AUTOHSCROLL
+  PUSHBUTTON     "...", 1003, xs - m - bxsDots, 20, bxsDots, bys, WS_GROUP
+  LTEXT          "current file line", 1004, m, 50, xc, 8
+  CONTROL        "", 1005, "msctls_progress32", WS_BORDER, m, 64, xc, 10
+  DEFPUSHBUTTON  "&Install", IDOK,    bx2, by, bxs, bys, WS_GROUP
+  PUSHBUTTON     "Cancel",  IDCANCEL, bx1, by, bxs, bys
+END

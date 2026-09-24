@@ -1,0 +1,1794 @@
+﻿{
+    "note":  "SHA-256 of every file in donor\\cut3 and the donor\\raw file it is built from. No Microsoft binaries here, only hashes.",
+    "recorded":  "2026-09-25",
+    "fileCount":  283,
+    "files":  [
+                  {
+                      "path":  "accessibilitycpl.dll",
+                      "size":  3745280,
+                      "sha256":  "3BA60A623F155E17682D6D3D08DA81385968EC4986E9CA94352357181BC64149",
+                      "from":  "Windows/System32/accessibilitycpl.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "actioncenter.dll",
+                      "size":  780800,
+                      "sha256":  "00FB2CF4420F0FFEF519AFE732A708CF249640121E2A891CAA164313ABD7F804",
+                      "from":  "Windows/System32/ActionCenter.dll"
+                  },
+                  {
+                      "path":  "ActionCenterCPL.dll",
+                      "size":  549888,
+                      "sha256":  "209D22B4D1E9D0521C5D55C1CF102D43144A92AE3D8102D667D45B33CB49D544",
+                      "from":  "Windows/System32/ActionCenterCPL.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "actxprxy.dll",
+                      "size":  961024,
+                      "sha256":  "C9905199B40A3D2233C8271B7BE3248CD2A3EA4C92B3F66C36EC565B4B4A1877",
+                      "from":  "Windows/System32/actxprxy.dll"
+                  },
+                  {
+                      "path":  "aero.msstyles",
+                      "size":  1171088,
+                      "sha256":  "6DA5EF369E56D81BA737B65D69A3316D40096E52B1A1BEDB87A90F5DBF6925E2",
+                      "from":  "Windows/Resources/Themes/Aero/aero.msstyles"
+                  },
+                  {
+                      "path":  "API-MS-Win-Core-Debug-L1-1-0.dll",
+                      "size":  1024,
+                      "sha256":  "3DB0FE1DE7BF1532AADB51A479C99B047EE916251B90CCAD9634E6D169E2839B",
+                      "built":  true
+                  },
+                  {
+                      "path":  "API-MS-Win-Core-ErrorHandling-L1-1-0.dll",
+                      "size":  1536,
+                      "sha256":  "3E3A2F37D04E3863FAE6B182A70EFFD21423CDFD0A90639787F11701CC8D914A",
+                      "built":  true
+                  },
+                  {
+                      "path":  "API-MS-Win-Core-File-L1-1-0.dll",
+                      "size":  5120,
+                      "sha256":  "1F2BB69BAC5F4206AA0B5F9A23B5F85E2638F30BE8745061B9E0AFF0E1AB910D",
+                      "built":  true
+                  },
+                  {
+                      "path":  "API-MS-Win-Core-Handle-L1-1-0.dll",
+                      "size":  1024,
+                      "sha256":  "6A6699DE633FFD5EEFCD1207026CBE44F1AC99642AE7BDE84C37313FEE171EC7",
+                      "built":  true
+                  },
+                  {
+                      "path":  "API-MS-Win-Core-Heap-L1-1-0.dll",
+                      "size":  1536,
+                      "sha256":  "4CEEE86D66DFE2FAB86A69D0F40FC878EDB7DD5F2B98C0A2622F809E8ABA80C4",
+                      "built":  true
+                  },
+                  {
+                      "path":  "API-MS-Win-Core-Interlocked-L1-1-0.dll",
+                      "size":  1536,
+                      "sha256":  "E7E315F705AE620AC05C2A188176FF904B9CD18D9AE1D9252E3A5CA644685695",
+                      "built":  true
+                  },
+                  {
+                      "path":  "API-MS-Win-Core-IO-L1-1-0.dll",
+                      "size":  1536,
+                      "sha256":  "F8A2617568D1EEE6C35D069FE33BA463EE58F30A282B2E3AFB6AC8383EC301A4",
+                      "built":  true
+                  },
+                  {
+                      "path":  "API-MS-Win-Core-LibraryLoader-L1-1-0.dll",
+                      "size":  2048,
+                      "sha256":  "0D8E14CB9F769E0DE5E7B748AE864FDA886A84A57542218141368E1C3772CAC8",
+                      "built":  true
+                  },
+                  {
+                      "path":  "api-ms-win-core-localregistry-l1-1-0.dll",
+                      "size":  3072,
+                      "sha256":  "087B9914BEBD8774445B220ECA0A502A9D87E93F0A101B69F3F16E5735D6B00E",
+                      "built":  true
+                  },
+                  {
+                      "path":  "API-MS-Win-Core-Memory-L1-1-0.dll",
+                      "size":  2048,
+                      "sha256":  "E0F6E223898B0596AA1563A6B64D2C7B7517078D58E3F800B38E2A141FCBC00D",
+                      "built":  true
+                  },
+                  {
+                      "path":  "API-MS-Win-Core-Misc-L1-1-0.dll",
+                      "size":  2560,
+                      "sha256":  "FF64FE29B34E8945810A11647ADCCC1351FCA31F7EEBC27551A22225711D8280",
+                      "built":  true
+                  },
+                  {
+                      "path":  "API-MS-Win-Core-ProcessEnvironment-L1-1-0.dll",
+                      "size":  2560,
+                      "sha256":  "22475371AF0D25DC5CC4543FD7D3452CA0AF7919784AFC5CAE2A5E93B5CFF5C4",
+                      "built":  true
+                  },
+                  {
+                      "path":  "API-MS-Win-Core-ProcessThreads-L1-1-0.dll",
+                      "size":  3584,
+                      "sha256":  "9EA90082AD37ED98E246FECCD9592E79A59767978E198C68B944E007FD7440A5",
+                      "built":  true
+                  },
+                  {
+                      "path":  "API-MS-Win-Core-Profile-L1-1-0.dll",
+                      "size":  1024,
+                      "sha256":  "F8CDF051DE5C883620D6AC00F9AD0BDCF7E7B3966081F1CB82D18F81B2CD74AF",
+                      "built":  true
+                  },
+                  {
+                      "path":  "API-MS-Win-Core-String-L1-1-0.dll",
+                      "size":  1536,
+                      "sha256":  "613095FBC77E21AC371C3C45FF58208031D05E3C280954A8CCFE0ED766BDC305",
+                      "built":  true
+                  },
+                  {
+                      "path":  "API-MS-Win-Core-Synch-L1-1-0.dll",
+                      "size":  3584,
+                      "sha256":  "EC3BF0976B0B88B0851647DF6A1C36CEB676BB71AD01445EA3948E2ECD18DFB8",
+                      "built":  true
+                  },
+                  {
+                      "path":  "API-MS-Win-Core-SysInfo-L1-1-0.dll",
+                      "size":  2560,
+                      "sha256":  "D7F6E25F02A96CE8F3C3B9D234220D0BF801D051FF144E89C27626FB3B436D77",
+                      "built":  true
+                  },
+                  {
+                      "path":  "api-ms-win-downlevel-advapi32-l1-1-0.dll",
+                      "size":  9728,
+                      "sha256":  "76846DD747C8DE12FF765B6FA3A1F348D89B8C6BEA9F3B2F303681A3953B1E66",
+                      "built":  true
+                  },
+                  {
+                      "path":  "api-ms-win-downlevel-advapi32-l2-1-0.dll",
+                      "size":  2048,
+                      "sha256":  "4315FA61642D9CA1CA8A171B5ABB2B2F4897A2D10E4F3B8ADBD6B70E9F9CEB30",
+                      "built":  true
+                  },
+                  {
+                      "path":  "api-ms-win-downlevel-normaliz-l1-1-0.dll",
+                      "size":  1024,
+                      "sha256":  "02423757630BB066120BEFF5B973A83C20CA19B76110322BDF0E9FA7E59D2814",
+                      "built":  true
+                  },
+                  {
+                      "path":  "api-ms-win-downlevel-ole32-l1-1-0.dll",
+                      "size":  3584,
+                      "sha256":  "E84EF9BDC4A01E9AC6FFD0CA68C53DBA3137CD0A397916C6C692B5CB1BC868AB",
+                      "built":  true
+                  },
+                  {
+                      "path":  "api-ms-win-downlevel-shlwapi-l1-1-0.dll",
+                      "size":  8704,
+                      "sha256":  "D1CC0E30772634D19270D7D7424ADE1C39AF2F0DF2368DE0421946DC4851D580",
+                      "built":  true
+                  },
+                  {
+                      "path":  "api-ms-win-downlevel-shlwapi-l2-1-0.dll",
+                      "size":  3584,
+                      "sha256":  "4CEDCD3B8E717AC04036C5A0017689C96EEB3D075961BBB8F1FC82F69499D210",
+                      "built":  true
+                  },
+                  {
+                      "path":  "api-ms-win-downlevel-user32-l1-1-0.dll",
+                      "size":  2048,
+                      "sha256":  "F7AF1A92C5F382A8DE8AAE9BC42C55E1A55E3D25DF01021FE1B5DF0FE59ED7DE",
+                      "built":  true
+                  },
+                  {
+                      "path":  "api-ms-win-downlevel-version-l1-1-0.dll",
+                      "size":  1536,
+                      "sha256":  "B3CD6DD5F8E529183C6202E6B452C464583DA3353BA36345E620293F820DBB1E",
+                      "built":  true
+                  },
+                  {
+                      "path":  "API-MS-Win-Security-Base-L1-1-0.dll",
+                      "size":  7168,
+                      "sha256":  "D90829A7E1FE22E62C6E352620C607768DE586927F928AD32B415381481977ED",
+                      "built":  true
+                  },
+                  {
+                      "path":  "API-MS-Win-Security-LSALookup-L1-1-0.dll",
+                      "size":  1536,
+                      "sha256":  "5F755AB4A36DDD3E603119A49897224E307C8F8772B5F766FAF9C9D49C3D9DDB",
+                      "built":  true
+                  },
+                  {
+                      "path":  "API-MS-Win-Security-SDDL-L1-1-0.dll",
+                      "size":  1536,
+                      "sha256":  "6842A0C716F95643590D6AFE1AC2CF609132C8D698E3A9E45054BD51B7E0BD69",
+                      "built":  true
+                  },
+                  {
+                      "path":  "API-MS-WIN-Service-Management-L1-1-0.dll",
+                      "size":  1536,
+                      "sha256":  "6EAEB4AD617C3E6807A904663086C2AEF10A41A6F71D9335A42A2BA0049D4A7D",
+                      "built":  true
+                  },
+                  {
+                      "path":  "API-MS-WIN-Service-Management-L2-1-0.dll",
+                      "size":  1536,
+                      "sha256":  "FB8E868CA43CBA6D8DD7364A38D4CF68EC02CA9D4A2C19AF40746AFFAED653BB",
+                      "built":  true
+                  },
+                  {
+                      "path":  "API-MS-WIN-Service-winsvc-L1-1-0.dll",
+                      "size":  2560,
+                      "sha256":  "992782F977D49A600556435703067C2B942B6A85FD95F6ED052BF1D48857EEFC",
+                      "built":  true
+                  },
+                  {
+                      "path":  "appwiz.cpl",
+                      "size":  726528,
+                      "sha256":  "528DD1F0DB21CCBED79B60C0582BBA572841990C82FDE3642DF708BD6FF402EC",
+                      "from":  "Windows/System32/appwiz.cpl",
+                      "built":  true
+                  },
+                  {
+                      "path":  "authui.dll",
+                      "size":  1941504,
+                      "sha256":  "A62E94AC7094120F31AFB19BA167787E9F2EDFF7D6D90946E135E7F6C3B9F334",
+                      "from":  "Windows/System32/authui.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "AuxiliaryDisplayCpl.dll",
+                      "size":  726528,
+                      "sha256":  "D28897A850F6B49DB4FE1951A8F77DDDD773DD13B2AE0F258D7D1675ABED723D",
+                      "from":  "Windows/System32/AuxiliaryDisplayCpl.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "batmeter.dll",
+                      "size":  749568,
+                      "sha256":  "720B0BF54C12676F18E299A4A038034279E32F7706CA092BDB06E14AFDD8B216",
+                      "from":  "Windows/System32/batmeter.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "biocpl.dll",
+                      "size":  504320,
+                      "sha256":  "9E2D2B199AE8048FBFCE693C1C02EDC02D8F94028927FC8FB1832A2481D3731A",
+                      "from":  "Windows/System32/biocpl.dll"
+                  },
+                  {
+                      "path":  "browseui.dll",
+                      "size":  14336,
+                      "sha256":  "DDE3B853B8DD791A717BAC5DD4174D267704835F79B468DB59097937F17B78C7",
+                      "from":  "Windows/System32/browseui.dll"
+                  },
+                  {
+                      "path":  "bthprops.cpl",
+                      "size":  721408,
+                      "sha256":  "54F252D78A45BB67E84C47A6A5B257FACADBB686191B81D606FDDD98F952C861",
+                      "from":  "Windows/System32/bthprops.cpl",
+                      "built":  true
+                  },
+                  {
+                      "path":  "collab.cpl",
+                      "size":  85504,
+                      "sha256":  "0CC8A3805BBA1FDA2F3C2FBF77ECB5558A6F15C8AA90328551158866F763A98B",
+                      "from":  "Windows/System32/collab.cpl"
+                  },
+                  {
+                      "path":  "connect.dll",
+                      "size":  1393152,
+                      "sha256":  "B78DC31CF8AAFAD3611B783A8308A8EDAE3DB1BA7F13861632FF5A769CBEF6C5",
+                      "from":  "Windows/System32/connect.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "control.exe",
+                      "size":  193536,
+                      "sha256":  "1F3EF545B94FA0E1F03DB9943F2B21F55BF77B64CB3F2E909A8D0EB9C063BAAA",
+                      "from":  "Windows/System32/control.exe",
+                      "built":  true
+                  },
+                  {
+                      "path":  "cscapi.dll",
+                      "size":  45568,
+                      "sha256":  "514FB75C22DDB15A8225E49EF4210D345BD7D0AFA2F369B1C19C338AC02FEEA8",
+                      "from":  "Windows/System32/cscapi.dll"
+                  },
+                  {
+                      "path":  "cscobj.dll",
+                      "size":  240128,
+                      "sha256":  "5B0E9205FAF4EEE700DBA8D82DBDA23E255B7A77E4703FF1E1066ADCA936C0B4",
+                      "from":  "Windows/System32/cscobj.dll"
+                  },
+                  {
+                      "path":  "cscui.dll",
+                      "size":  498176,
+                      "sha256":  "C1BBF3B96EFDFD74207D677E03B3827E9A91AB19C82D3C3774BE3169B9D3025F",
+                      "from":  "Windows/System32/cscui.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "defaultlocationcpl.dll",
+                      "size":  233984,
+                      "sha256":  "84B2311DA730D2C77C0D6C153824316B72B84F712AA5BEB26EFED2DFD1BC8567",
+                      "from":  "Windows/System32/defaultlocationcpl.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "desk.cpl",
+                      "size":  130048,
+                      "sha256":  "87087406854FE53C20E7EA550D0C0E5EEB1E402572C155B9EFF54C6D3F35E10B",
+                      "from":  "Windows/System32/desk.cpl",
+                      "built":  true
+                  },
+                  {
+                      "path":  "DeviceCenter.dll",
+                      "size":  508928,
+                      "sha256":  "F886498C44B0172E5E6B877889E5C8D6D581818F59389595054054166F82716C",
+                      "from":  "Windows/System32/DeviceCenter.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "DiagCpl.dll",
+                      "size":  1201664,
+                      "sha256":  "179BDEB0E9842FF8F0B6D334C8CEDAE725C4D352FC35358442E6C06DB0C806D5",
+                      "from":  "Windows/System32/DiagCpl.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "Display.dll",
+                      "size":  1065984,
+                      "sha256":  "66C98AA3F3A1C7C8DF4831C2F9D18691DEDE34BACCF10CF0C37C243D22964437",
+                      "from":  "Windows/System32/Display.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "dui70.dll",
+                      "size":  1019904,
+                      "sha256":  "3646468365B8E20C4CF90794D5F8F64D42A63BC26F02B14D6CB86989404D4B8B",
+                      "from":  "Windows/System32/dui70.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "duser.dll",
+                      "size":  260608,
+                      "sha256":  "DD663029B2EB7B12FDB00FCE403D8326141E540E3B9CE84CD5871473D3E2E2CF",
+                      "from":  "Windows/System32/duser.dll"
+                  },
+                  {
+                      "path":  "dwm.exe",
+                      "size":  120320,
+                      "sha256":  "2E2035E2BBE821C4F7C78906BF869DD68AD3818167C84CA12FCBCB4209FE4E4D",
+                      "from":  "Windows/System32/dwm.exe",
+                      "built":  true
+                  },
+                  {
+                      "path":  "dwmapi.dll",
+                      "size":  82944,
+                      "sha256":  "488247709A6B5F5F986F095279C04BE9DB21374554DA35D8D61108F86ED1BC66",
+                      "from":  "Windows/System32/dwmapi.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "dwmcore.dll",
+                      "size":  1632768,
+                      "sha256":  "D6EB1CD95B037D903163BAFEC4423BE6B079B23BC8FB8ABC89E43F4A2634E58F",
+                      "from":  "Windows/System32/dwmcore.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "dwmredir.dll",
+                      "size":  128512,
+                      "sha256":  "7ACC6F985588ED0493E2CE97F2B7B2709D9A072B58DB0584451589E3932A9870",
+                      "from":  "Windows/System32/dwmredir.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "dxp.dll",
+                      "size":  459776,
+                      "sha256":  "E18522D3137653140757829EFBFCE624A5BAA5842E2BBA10B9E5AB6C84BE49E1",
+                      "from":  "Windows/System32/DXP.dll"
+                  },
+                  {
+                      "path":  "ehstorshell.dll",
+                      "size":  203264,
+                      "sha256":  "60CB39086E10C5B66EBC15E4DF219620B344B4358D2918AB6BB3448A0AC8BE36",
+                      "from":  "Windows/System32/EhStorShell.dll"
+                  },
+                  {
+                      "path":  "en-US\\accessibilitycpl.dll.mui",
+                      "size":  33792,
+                      "sha256":  "D37A17D4A40B83AFB35C60F95CD80D61BC0E78BE5D253AC62A16CB976A5F6CE2",
+                      "from":  "Windows/System32/en-US/accessibilitycpl.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\actioncenter.dll.mui",
+                      "size":  19456,
+                      "sha256":  "D34A380C49F634A2046A616F7171A6511A4DAE67BDFF13B30A1D8923706D7D15",
+                      "from":  "Windows/System32/en-US/ActionCenter.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\ActionCenterCPL.dll.mui",
+                      "size":  7680,
+                      "sha256":  "43385C093D88AE3DA155160DFB3B910EF665BDA66A21A2CC9C11D7273C0804E8",
+                      "from":  "Windows/System32/en-US/ActionCenterCPL.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\aero.msstyles.mui",
+                      "size":  4096,
+                      "sha256":  "9965BC078942C39E2C60CD93E3B048EFBB24FC57C51A343BD1047B8C9574A395",
+                      "from":  "Windows/Resources/Themes/Aero/en-US/aero.msstyles.mui"
+                  },
+                  {
+                      "path":  "en-US\\appwiz.cpl.mui",
+                      "size":  21504,
+                      "sha256":  "3C4693A542C09D9B9E4BF5E04CD4F6D60143BCE07A93586E25113D10A8486B6E",
+                      "from":  "Windows/System32/en-US/appwiz.cpl.mui"
+                  },
+                  {
+                      "path":  "en-US\\authui.dll.mui",
+                      "size":  27648,
+                      "sha256":  "23F62BAB9CD97AD7FCCA0449AF2762AEA101C6494FF1ADDF472D0E0215A720B8",
+                      "from":  "Windows/System32/en-US/authui.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\AuxiliaryDisplayCpl.dll.mui",
+                      "size":  17408,
+                      "sha256":  "3FE54203EBC427B16E67791615DE0F57FE870D591FB1B86EFB1E5713398F814F",
+                      "from":  "Windows/System32/en-US/AuxiliaryDisplayCpl.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\batmeter.dll.mui",
+                      "size":  4096,
+                      "sha256":  "8BE36787AC15825FC6C0FDE0721911A322D34A77BCCBB889439BB7C6571BF7D7",
+                      "from":  "Windows/System32/en-US/batmeter.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\biocpl.dll.mui",
+                      "size":  17920,
+                      "sha256":  "92407D5E14C4D3323FFB3B92DEE0AA4861BB76E3C38B51FC5AE76C72462BCCB5",
+                      "from":  "Windows/System32/en-US/biocpl.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\bthprops.cpl.mui",
+                      "size":  27136,
+                      "sha256":  "33A976E1EDFCCA5200F6B5A3D86E8584BDAEF9FDE21A0DC93AC49D973BB3FAEB",
+                      "from":  "Windows/System32/en-US/bthprops.cpl.mui"
+                  },
+                  {
+                      "path":  "en-US\\collab.cpl.mui",
+                      "size":  2560,
+                      "sha256":  "2D06F834F10FA5C4F8CFF0E014A1B68B91066FD0AC9CD78A55936A8EDE7BFC58",
+                      "from":  "Windows/System32/en-US/collab.cpl.mui"
+                  },
+                  {
+                      "path":  "en-US\\connect.dll.mui",
+                      "size":  16896,
+                      "sha256":  "9ACE9C05B999A2A7A8CEAEAAD9FE750A14D0F6186E7DC9D588AB505DD1CBEBE9",
+                      "from":  "Windows/System32/en-US/connect.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\cscobj.dll.mui",
+                      "size":  2560,
+                      "sha256":  "F3D35998D68CA950978E8966FDDC3E72595BE5A8B024DE5503D90A921C6B4195",
+                      "from":  "Windows/System32/en-US/cscobj.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\cscui.dll.mui",
+                      "size":  33792,
+                      "sha256":  "C760BAC7740A4B4B814A2E130E88A857EEF89B33335E034C5E69B18DC0AEBCE4",
+                      "from":  "Windows/System32/en-US/cscui.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\defaultlocationcpl.dll.mui",
+                      "size":  5632,
+                      "sha256":  "A12BC3C4A1A3A2766F4726F64446D172FDF6E7B5EC30D36360FC7996604E31DD",
+                      "from":  "Windows/System32/en-US/defaultlocationcpl.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\desk.cpl.mui",
+                      "size":  3584,
+                      "sha256":  "D38B55C7CB4115327CBC92DC3D424E2B7ABBB5BD4A65055E9805306239F523FE",
+                      "from":  "Windows/System32/en-US/desk.cpl.mui"
+                  },
+                  {
+                      "path":  "en-US\\DeviceCenter.dll.mui",
+                      "size":  6656,
+                      "sha256":  "49F975ADFF5E99CF5BB36EB190C4BB6B189B7B1660C36CD43EA360595E23C9E2",
+                      "from":  "Windows/System32/en-US/DeviceCenter.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\DiagCpl.dll.mui",
+                      "size":  17408,
+                      "sha256":  "9287DECBC5131902E024853CCD530B963086F3DB4C5F120165596927475B2BCC",
+                      "from":  "Windows/System32/en-US/DiagCpl.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\Display.dll.mui",
+                      "size":  15360,
+                      "sha256":  "B8BE80131B1BB12808AC926B593ECBC84247BA62B6752ABD395247EBEA2E3706",
+                      "from":  "Windows/System32/en-US/Display.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\dui70.dll.mui",
+                      "size":  2048,
+                      "sha256":  "1E5B7D1B7B573195A89044D22CCD53854D76E7B907E87801035123736D55D8CC",
+                      "from":  "Windows/System32/en-US/dui70.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\duser.dll.mui",
+                      "size":  3072,
+                      "sha256":  "6F09F99E7D5B2D33B688C8B92A81077CB16EF5D5095E0DD3DB7A35E217E4C11B",
+                      "from":  "Windows/System32/en-US/duser.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\dwmapi.dll.mui",
+                      "size":  2560,
+                      "sha256":  "4B09173F4EAA9C027C203D354366B693BEF38BED0E7C43BC6091DE9CFA8C1483",
+                      "from":  "Windows/System32/en-US/dwmapi.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\dxp.dll.mui",
+                      "size":  6656,
+                      "sha256":  "DDDA246699E0DBC345AF77D777F0DC439422939F698DF75AE9B60657E716CCE6",
+                      "from":  "Windows/System32/en-US/dxp.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\ehstorshell.dll.mui",
+                      "size":  2560,
+                      "sha256":  "3AE5458C3DC09F0A725270C8C045FF28386BBC28A2EFA5CD412C234BF5D78056",
+                      "from":  "Windows/System32/en-US/EhStorShell.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\explorer.exe.mui",
+                      "size":  22016,
+                      "sha256":  "9D571CFD6E0EB3A817366BD62BF6780E99186006E9F1DB5B4AC4332D85BE3ECC",
+                      "from":  "Windows/en-US/explorer.exe.mui"
+                  },
+                  {
+                      "path":  "en-US\\explorerframe.dll.mui",
+                      "size":  18432,
+                      "sha256":  "735FD75C8CA0D0608FD026C5E6CAE76C6E21738D66B0EEE3E25766981174B126",
+                      "from":  "Windows/System32/en-US/explorerframe.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\fontext.dll.mui",
+                      "size":  11776,
+                      "sha256":  "DC261365C4FA3306381590FEA15C809DEAB26DF7E5C7931376C50CFD4B867952",
+                      "from":  "Windows/System32/en-US/fontext.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\FunDisc.dll.mui",
+                      "size":  10752,
+                      "sha256":  "E55CC77A73C564064DD60AFE3670E0E98515568DF2416F535D7D7E441F5E76DC",
+                      "from":  "Windows/System32/en-US/FunDisc.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\fvecpl.dll.mui",
+                      "size":  7168,
+                      "sha256":  "8D041C04B7458B0D4E6DAB492CFEE5E49FCCC52652F6BF8CBC42DF1323094C70",
+                      "from":  "Windows/System32/en-US/fvecpl.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\fxsresm.dll.mui",
+                      "size":  165376,
+                      "sha256":  "37583BB1D394969D49C5A6B6101F6643CC3BD998D77EEAA1C87F32CA60CB630D",
+                      "from":  "Windows/System32/en-US/FXSRESM.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\hcproviders.dll.mui",
+                      "size":  4096,
+                      "sha256":  "BE9746CB49074037EEE4DE96A227CAECD47669ED2801C3ACC670FC467F63E948",
+                      "from":  "Windows/System32/en-US/hcproviders.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\hdwwiz.cpl.mui",
+                      "size":  14336,
+                      "sha256":  "13D13DE1621A6A67DE4BF4B7574F4DE5B404091CDA9E95C1734F07C0027F4852",
+                      "from":  "Windows/System32/en-US/hdwwiz.cpl.mui"
+                  },
+                  {
+                      "path":  "en-US\\hgcpl.dll.mui",
+                      "size":  47616,
+                      "sha256":  "30DCCFE145E2673E68A180D4AC16980AFFB94C60B781E9C92A96B4C379C91FB0",
+                      "from":  "Windows/System32/en-US/hgcpl.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\imapi2.dll.mui",
+                      "size":  16896,
+                      "sha256":  "544E1D8533DB5C3C343E3B0A15B11A80F08F3FCDE49FDEAA2A447379E0A14522",
+                      "from":  "Windows/System32/en-US/imapi2.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\inetcpl.cpl.mui",
+                      "size":  114688,
+                      "sha256":  "A092693C30733705E98718A3BAB6E91B58C109D7112D497C94DD0EC77C4ECC68",
+                      "from":  "Windows/System32/en-US/inetcpl.cpl.mui"
+                  },
+                  {
+                      "path":  "en-US\\intl.cpl.mui",
+                      "size":  24576,
+                      "sha256":  "ED3FFAB1377004AF50159BDF65AB00C342E561AD6271A027F9F547847509835C",
+                      "from":  "Windows/System32/en-US/intl.cpl.mui"
+                  },
+                  {
+                      "path":  "en-US\\irprops.cpl.mui",
+                      "size":  5120,
+                      "sha256":  "8F0B3EDA404775030B91F13CA4B82BABEB732DF218769D628CBDBA45F9CED250",
+                      "from":  "Windows/System32/en-US/irprops.cpl.mui"
+                  },
+                  {
+                      "path":  "en-US\\iscsicpl.dll.mui",
+                      "size":  47104,
+                      "sha256":  "491B11DBEA8D2C2433DB01EAB51ED4B87C87FF4692F8D1C074C322CCB64274FA",
+                      "from":  "Windows/System32/en-US/iscsicpl.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\joy.cpl.mui",
+                      "size":  9728,
+                      "sha256":  "D6AB5F3D6C37D41854EC4C969CA2238F3BBDA4E2B6D1C1667BC579B16237C784",
+                      "from":  "Windows/System32/en-US/joy.cpl.mui"
+                  },
+                  {
+                      "path":  "en-US\\main.cpl.mui",
+                      "size":  12288,
+                      "sha256":  "0B5F179E79F7EED50F2356C2530B2AF1E895D939D7CD2DEF6FB6A5DC26F0B952",
+                      "from":  "Windows/System32/en-US/main.cpl.mui"
+                  },
+                  {
+                      "path":  "en-US\\mmsys.cpl.mui",
+                      "size":  26624,
+                      "sha256":  "C3BEA45B6A3FCA3DD01CEF4726D86F989AC95A38196F8B920FB6450222214F74",
+                      "from":  "Windows/System32/en-US/mmsys.cpl.mui"
+                  },
+                  {
+                      "path":  "en-US\\ncpa.cpl.mui",
+                      "size":  2048,
+                      "sha256":  "97565653F0CBAF775783685489295FC445E02F8050A7AB73102906443EB352B2",
+                      "from":  "Windows/System32/en-US/ncpa.cpl.mui"
+                  },
+                  {
+                      "path":  "en-US\\netcenter.dll.mui",
+                      "size":  9216,
+                      "sha256":  "7917580051919702D6DB8CE63BF055A1136FD065676772BBEC7D0DCEB810C7D7",
+                      "from":  "Windows/System32/en-US/netcenter.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\netprofm.dll.mui",
+                      "size":  6144,
+                      "sha256":  "88AEF33D8E45BB61651DF3D020E15D9C7E1C7F227F6FDAF85A964BCB138ABB3B",
+                      "from":  "Windows/System32/en-US/netprofm.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\netshell.dll.mui",
+                      "size":  67072,
+                      "sha256":  "20FBBF145EC85373400076F3DDA42F3355B7E0C8F14CE03ACFA3614B8551B24D",
+                      "from":  "Windows/System32/en-US/netshell.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\networkexplorer.dll.mui",
+                      "size":  6656,
+                      "sha256":  "17428CF24F45F1FEFE3C1A8BA858A5B6FAF91057B4DA498559E1AE4C4AEA51DD",
+                      "from":  "Windows/System32/en-US/NetworkExplorer.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\NetworkMap.dll.mui",
+                      "size":  6656,
+                      "sha256":  "A6E5C0B2C86B24FB2EE91E8D3FD18E72BF669F4D0C28ACC5B1750431C3927F07",
+                      "from":  "Windows/System32/en-US/NetworkMap.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\ntshrui.dll.mui",
+                      "size":  32256,
+                      "sha256":  "6A77ADCF9F5E576C8311BBDFB35AA5EEF5217A261028ACBA98E92EB29FD5C4DA",
+                      "from":  "Windows/System32/en-US/ntshrui.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\OnLineIDCpl.dll.mui",
+                      "size":  5632,
+                      "sha256":  "143F8EBE18F7667BB8AACEC6810A4DC193B2F5DE63FBFE933696BE48ACD7FEBB",
+                      "from":  "Windows/System32/en-US/OnLineIDCPL.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\OobeFldr.dll.mui",
+                      "size":  10752,
+                      "sha256":  "E7DD79028442DE2AB931C81438AA7E3E465BFC027FA2DBD9A05338C6DA541DA7",
+                      "from":  "Windows/System32/en-US/oobefldr.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\PerfCenterCPL.dll.mui",
+                      "size":  43008,
+                      "sha256":  "D1AE933B02EF11D36340CE7C9990C3E87AEB07FFC8338E7BBE23924D190B642F",
+                      "from":  "Windows/System32/en-US/PerfCenterCPL.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\pnidui.dll.mui",
+                      "size":  16896,
+                      "sha256":  "DBE945119616FE4AB447EA4FD97943C1F59654E8EAD241298232E36AB21DF7EE",
+                      "from":  "Windows/System32/en-US/pnidui.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\portabledeviceapi.dll.mui",
+                      "size":  2560,
+                      "sha256":  "0F4BF5C3E8FB462BAFB1C6A98BB7C41D7E63C27B2DFF237CFE31914325099CA4",
+                      "from":  "Windows/System32/en-US/PortableDeviceApi.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\powercfg.cpl.mui",
+                      "size":  6656,
+                      "sha256":  "5B4E582AE56594C8127BD0152C5C7D6763C564C465EF5620B739B2FBABC7B442",
+                      "from":  "Windows/System32/en-US/powercfg.cpl.mui"
+                  },
+                  {
+                      "path":  "en-US\\powercpl.dll.mui",
+                      "size":  13312,
+                      "sha256":  "693AF2DCB2DBA43F514BC7D4926BF4AE66053187D06801888B891F33C1380AE2",
+                      "from":  "Windows/System32/en-US/powercpl.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\prnfldr.dll.mui",
+                      "size":  15872,
+                      "sha256":  "9C7DBDD6372D5C8AB6768FDD02293EA5FA5E72A94FA2D232AD03C72C9F3F19FE",
+                      "from":  "Windows/System32/en-US/prnfldr.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\propsys.dll.mui",
+                      "size":  55808,
+                      "sha256":  "DE0EF5B6E79FAD75E82255329E7A72E82C725C23F61A9429CB7639C3A99B52A3",
+                      "from":  "Windows/System32/en-US/propsys.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\provsvc.dll.mui",
+                      "size":  5632,
+                      "sha256":  "B056A0F47F8D27A2EE17F54C87BD1FF2E509CE811C94D81D94C33275448CF51C",
+                      "from":  "Windows/System32/en-US/provsvc.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\qutil.dll.mui",
+                      "size":  2048,
+                      "sha256":  "7D3A8466B2526AD299BEB8F3917693A26C72FD98DAC11230BAE6D4D4E7E9B9B7",
+                      "from":  "Windows/System32/en-US/Qutil.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\racpldlg.dll.mui",
+                      "size":  6144,
+                      "sha256":  "CC1A8535ECFBAD8444549D53CBC4EE0E06A53B0AC71F21D2BCD203F52CC92318",
+                      "from":  "Windows/System32/en-US/racpldlg.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\rasgcw.dll.mui",
+                      "size":  42496,
+                      "sha256":  "480073DB72C7C122990BF585FF29EBD6394D457BE733CF7723212D7264599F83",
+                      "from":  "Windows/System32/en-US/rasgcw.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\RasMM.dll.mui",
+                      "size":  3072,
+                      "sha256":  "337B95F21B35E64439A841D8142521A19F565E1B11268CF2D66DD132501FF19A",
+                      "from":  "Windows/System32/en-US/rasmm.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\ReAgent.dll.mui",
+                      "size":  9216,
+                      "sha256":  "062A5018780C4C847BA11511222FE7A33A97F52F2BF1A4C706B6F4283800981A",
+                      "from":  "Windows/System32/en-US/reagent.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\recovery.dll.mui",
+                      "size":  14848,
+                      "sha256":  "979DCDD710CF99CF285E21B2E063E631FDE9B45504297AE53FFEBE098C741C28",
+                      "from":  "Windows/System32/en-US/recovery.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\rundll32.exe.mui",
+                      "size":  2560,
+                      "sha256":  "3851835BA8F0DC03305836FA08779AA4058599677BF0CD58208EE5B11D55D07B",
+                      "from":  "Windows/System32/en-US/rundll32.exe.mui"
+                  },
+                  {
+                      "path":  "en-US\\sdcpl.dll.mui",
+                      "size":  11776,
+                      "sha256":  "5684FF9743C9EE6515D9F7A1CF6E325699B79C7A17E4FE041A8001DF8D7BA166",
+                      "from":  "Windows/System32/en-US/sdcpl.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\searchfolder.dll.mui",
+                      "size":  152576,
+                      "sha256":  "F9AA7B8F62403C2F59F1B8F0773D8C4976AC817EA1B4B468E3322EB951103BC0",
+                      "from":  "Windows/System32/en-US/searchfolder.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\SensorsCpl.dll.mui",
+                      "size":  14848,
+                      "sha256":  "13039F0753FA9AEC446F9DE09B1485E229FE370B9FB9F877CB6FF5C74BD963CF",
+                      "from":  "Windows/System32/en-US/SensorsCpl.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\sharemediacpl.dll.mui",
+                      "size":  12800,
+                      "sha256":  "4B1CC05DA70DA79D6A56167E62369170429A7FCBE970CE2B302871D270DDDC0A",
+                      "from":  "Windows/System32/en-US/sharemediacpl.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\shdocvw.dll.mui",
+                      "size":  13312,
+                      "sha256":  "C99BD06D3ED02F63783B9B1B4263099B832F5352D438F416EE3E539D6BA0EA37",
+                      "from":  "Windows/System32/en-US/shdocvw.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\shell32.dll.mui",
+                      "size":  379392,
+                      "sha256":  "2D1ABC2E0769ED9DFEFECA4781C4E16E7A1876064F883627226AD5E9389CCC9E",
+                      "from":  "Windows/System32/en-US/shell32.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\shellstyle.dll.mui",
+                      "size":  123392,
+                      "sha256":  "CB620845006FA63E80B14A960633511F4840EE56683C0B6CEEA46B8F7925864D",
+                      "from":  "Windows/Resources/Themes/Aero/Shell/NormalColor/en-US/shellstyle.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\shlwapi.dll.mui",
+                      "size":  4096,
+                      "sha256":  "93901957E477024E6016C2D23EC2BA5F05F274FD846EDAA14589D0F49F8A3CD6",
+                      "from":  "Windows/System32/en-US/shlwapi.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\slc.dll.mui",
+                      "size":  54784,
+                      "sha256":  "AE847B50602DC4211F59BB4F1FD2618062125060FECCAD1089BDBAB630E953D9",
+                      "from":  "Windows/System32/en-US/slc.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\sndvolsso.dll.mui",
+                      "size":  3584,
+                      "sha256":  "914E08D25F2A4802FC66BFD8946D0E16484515EB7DC359CF3619E5CFA29B2892",
+                      "from":  "Windows/System32/en-US/sndvolsso.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\srchadmin.dll.mui",
+                      "size":  16896,
+                      "sha256":  "8643311B3F84348F673E74B510F7FEB77408E39CC438BAD947A441E61368AFC3",
+                      "from":  "Windows/System32/en-US/srchadmin.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\stobject.dll.mui",
+                      "size":  6656,
+                      "sha256":  "B864524E27D3669C3F98842FD8EF229D4638B99E19602E1B09C8C85F093CD082",
+                      "from":  "Windows/System32/en-US/stobject.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\synccenter.dll.mui",
+                      "size":  26624,
+                      "sha256":  "E177AA9E3383692BFA5419C9E71E73E3CC14A01EF2F9858A9D279BA4D1544F64",
+                      "from":  "Windows/System32/en-US/SyncCenter.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\syncreg.dll.mui",
+                      "size":  3072,
+                      "sha256":  "5E8D9AACD7353259BDD938409F02B6C86163E7D00C0A13708196314FB10FBD7A",
+                      "from":  "Windows/System32/en-US/syncreg.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\sysdm.cpl.mui",
+                      "size":  28672,
+                      "sha256":  "8C697DAE7A21D95CECFAEA1E1E09E49989615A4EA1DAED6A342BAC77AAC33D54",
+                      "from":  "Windows/System32/en-US/sysdm.cpl.mui"
+                  },
+                  {
+                      "path":  "en-US\\systemcpl.dll.mui",
+                      "size":  7680,
+                      "sha256":  "6A195CD8773325311B9EE041456423CE568E1D5867965E473C9974223608B504",
+                      "from":  "Windows/System32/en-US/systemcpl.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\TabletPC.cpl.mui",
+                      "size":  44032,
+                      "sha256":  "784B9325B75D3839CE59D51BBB522AC60425ECCB633ECC5811D5C51AA6667B98",
+                      "from":  "Windows/System32/en-US/TabletPC.cpl.mui"
+                  },
+                  {
+                      "path":  "en-US\\taskbarcpl.dll.mui",
+                      "size":  5120,
+                      "sha256":  "C20918A5676D719DF87615D5F787F525EA80B0534479F4E2D4D3398BD7EAF33C",
+                      "from":  "Windows/System32/en-US/taskbarcpl.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\telephon.cpl.mui",
+                      "size":  2048,
+                      "sha256":  "6FE4E987ED946B455CEB1F4680B947EF3B495BB57400DB9EB154B98E433F53C6",
+                      "from":  "Windows/System32/en-US/telephon.cpl.mui"
+                  },
+                  {
+                      "path":  "en-US\\themecpl.dll.mui",
+                      "size":  13824,
+                      "sha256":  "58BB1A305608C9929985FBEC0EE3874A9357D87C57D17A2FB8930EC4E4292059",
+                      "from":  "Windows/System32/en-US/themecpl.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\thumbcache.dll.mui",
+                      "size":  2560,
+                      "sha256":  "6099CA7CD7745AEEA556FAA350D33C569FA6EAC0D0D4E6FED35C764F7CDCB31F",
+                      "from":  "Windows/System32/en-US/thumbcache.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\timedate.cpl.mui",
+                      "size":  22016,
+                      "sha256":  "56CFAF2C51A925DB1D6B582C9CAF97D856F83AC5AB2C23F008FCBCB99CF5714B",
+                      "from":  "Windows/System32/en-US/timedate.cpl.mui"
+                  },
+                  {
+                      "path":  "en-US\\urlmon.dll.mui",
+                      "size":  48128,
+                      "sha256":  "15C78D44D2A29B7BF47552BB80E5A4F5FE5F08B7750B30A86159FC1A1BEF4A96",
+                      "from":  "Windows/System32/en-US/urlmon.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\usercpl.dll.mui",
+                      "size":  22016,
+                      "sha256":  "A7AD19C8A783D28F9C210BD261F69FD84C4D1A057B6FADB8F001212C6ADF9D8D",
+                      "from":  "Windows/System32/en-US/usercpl.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\van.dll.mui",
+                      "size":  6144,
+                      "sha256":  "9B4F495CBD387758481451BBF2B509B962DED3847AC3613173CCD2E32A7D30AD",
+                      "from":  "Windows/System32/en-US/VAN.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\Vault.dll.mui",
+                      "size":  30208,
+                      "sha256":  "473A6F7C9CDC6CC4D0AC7D479805C7276B6D94FE5EAA46AE97B62980EDCCDD0B",
+                      "from":  "Windows/System32/en-US/Vault.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\wcnwiz.dll.mui",
+                      "size":  22016,
+                      "sha256":  "60E88A6608E8037ABC3EB58611661ABB41E56E8875049A2BFBC3979EE1A10492",
+                      "from":  "Windows/System32/en-US/wcnwiz.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\werconcpl.dll.mui",
+                      "size":  59904,
+                      "sha256":  "866DA3F1FCED115A5E2FD5B8C43597D816076E21D74039A87946D03B5057A089",
+                      "from":  "Windows/System32/en-US/werconcpl.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\wercplsupport.dll.mui",
+                      "size":  2560,
+                      "sha256":  "464D3CDECAB2FC0D2DE3FE80E67AC18A7965C130872EE9A6DD4F4580C057839A",
+                      "from":  "Windows/System32/en-US/wercplsupport.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\wininet.dll.mui",
+                      "size":  49664,
+                      "sha256":  "F1DB065883649EB033ACB23153B9FFAE44C3DD19A1DFA5920E395B40B5A9A4A4",
+                      "from":  "Windows/System32/en-US/wininet.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\wlanconn.dll.mui",
+                      "size":  8192,
+                      "sha256":  "01E2FDFC42554B7E71E8802E2201C289D8392F9B6922B43E02E8AC597C106ECA",
+                      "from":  "Windows/System32/en-US/WLanConn.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\wlandlg.dll.mui",
+                      "size":  5120,
+                      "sha256":  "165B7E5A80869371EF6BE70A23A19C78D7DADBD0D47EC59DC33930AAB114EF97",
+                      "from":  "Windows/System32/en-US/wlandlg.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\WlanMM.dll.mui",
+                      "size":  4096,
+                      "sha256":  "510A6EE392F0E587FC20DFEDB8F214288D02DCB6620B269E3B1211886500942E",
+                      "from":  "Windows/System32/en-US/wlanmm.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\wlanpref.dll.mui",
+                      "size":  28160,
+                      "sha256":  "DF02025DA33E9E3B1EE3345EEA620392438A1E25B24435112155ED7001A68E3D",
+                      "from":  "Windows/System32/en-US/wlanpref.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\wlanui.dll.mui",
+                      "size":  13312,
+                      "sha256":  "24C69274A8849283E41328B4451DAAFBF7995D9CBA3B5A1FCADD12218CE30BA7",
+                      "from":  "Windows/System32/en-US/wlanui.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\wpccpl.dll.mui",
+                      "size":  36864,
+                      "sha256":  "4BF1ACAABCB4059E8C661BE4B0749635BC512CB14DC924569E02E48F27CD417B",
+                      "from":  "Windows/System32/en-US/wpccpl.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\wpdwcn.dll.mui",
+                      "size":  7168,
+                      "sha256":  "BB07431692329F7B0D5D2E13FE46074261AEC8C41F8982C0655CF4CB1E583BDC",
+                      "from":  "Windows/System32/en-US/wpdwcn.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\wscui.cpl.mui",
+                      "size":  57856,
+                      "sha256":  "51C1E68D7A74B7C61F841411F2CA091BB069C29D88F5D70E37208E7A34B54332",
+                      "from":  "Windows/System32/en-US/wscui.cpl.mui"
+                  },
+                  {
+                      "path":  "en-US\\wucltux.dll.mui",
+                      "size":  38912,
+                      "sha256":  "E23925D16A76229D4CC433283E96BB0ECBF1EAA8ADAF792AD36B158021A93B2E",
+                      "from":  "Windows/System32/en-US/wucltux.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\wwanconn.dll.mui",
+                      "size":  8704,
+                      "sha256":  "FA6D0D82179258A550536606B81C542AD126523214FD3F58FE975AE80DCFF6C1",
+                      "from":  "Windows/System32/en-US/wwanconn.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\wwanmm.dll.mui",
+                      "size":  3584,
+                      "sha256":  "7D189E88CF4C5453DF05A4CD4064615BCE180DF9AFA40C962E7D315DC3C444CF",
+                      "from":  "Windows/System32/en-US/WWanMM.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\xwizards.dll.mui",
+                      "size":  6144,
+                      "sha256":  "F960121F2F9FB915C2CB01EBE1AF7A8E07001F6E32DDFCD6FF7101054E4EA3A7",
+                      "from":  "Windows/System32/en-US/xwizards.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\xwtpdui.dll.mui",
+                      "size":  3072,
+                      "sha256":  "513F5C33CFA73E58A683EB6B58CEB49A39242F91975AE2E7AFC37AA4B238C115",
+                      "from":  "Windows/System32/en-US/xwtpdui.dll.mui"
+                  },
+                  {
+                      "path":  "en-US\\xwtpw32.dll.mui",
+                      "size":  2560,
+                      "sha256":  "A26F5D1B749339B4A730A43D84832138EAC9A2D9EBE325C1C89999CB509622C6",
+                      "from":  "Windows/System32/en-US/xwtpw32.dll.mui"
+                  },
+                  {
+                      "path":  "explorer.exe",
+                      "size":  3296768,
+                      "sha256":  "D5E41768A34DBE3C4782DD9C8E6E815DF1C6DAD32A36490BE599880B58C8FEAF",
+                      "from":  "Windows/explorer.exe",
+                      "built":  true
+                  },
+                  {
+                      "path":  "explorerframe.dll",
+                      "size":  1867264,
+                      "sha256":  "4E4D064EB303B09D4CE2B3F1BA0AF5BBC2579FAD752CF6ACB47A0D474C05AAA3",
+                      "from":  "Windows/System32/ExplorerFrame.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "Firewall.cpl",
+                      "size":  6144,
+                      "sha256":  "A433647C83C4A28EF9C3587A69035AB27B387B7879F33B7012B2EB8BB3B83947",
+                      "from":  "Windows/System32/Firewall.cpl"
+                  },
+                  {
+                      "path":  "fontext.dll",
+                      "size":  861184,
+                      "sha256":  "AE191951A4F665E27A672201A3BA3C32A6A5DD072E4E70BC41CB8AF3FF71CE38",
+                      "from":  "Windows/System32/fontext.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "FunDisc.dll",
+                      "size":  194560,
+                      "sha256":  "A3BD057C7E8C926930BA7E9D11427D26FB37267026A0B72AB4021101EE424F74",
+                      "from":  "Windows/System32/fundisc.dll"
+                  },
+                  {
+                      "path":  "fvecpl.dll",
+                      "size":  183296,
+                      "sha256":  "C9810D368D595FE4A7635F21569CB9E1BEDD17BF7A25F07C1E6A732C873B4F8C",
+                      "from":  "Windows/System32/fvecpl.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "fxsapi.dll",
+                      "size":  623104,
+                      "sha256":  "E61E5814CD75E34AAB3C3C07AD83F0D684F81077B4FCC4969D45C17537E50B9E",
+                      "from":  "Windows/System32/FXSAPI.dll"
+                  },
+                  {
+                      "path":  "fxsresm.dll",
+                      "size":  925184,
+                      "sha256":  "F688D0AC8ADAD077E143FE5F77B1138A54D9197DC640C0C83F719E2CFB33CF0F",
+                      "from":  "Windows/System32/FXSRESM.dll"
+                  },
+                  {
+                      "path":  "fxsst.dll",
+                      "size":  864256,
+                      "sha256":  "C4FDB2C5AC01F459F6C1F172F6D22E0559F195560F637E4F1B6AA0EDEDC39DBF",
+                      "from":  "Windows/System32/FXSST.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "hcproviders.dll",
+                      "size":  31744,
+                      "sha256":  "97759CC7C03A46A98E16B7EF246551C90FA8D5FCB612557213DA70A4FD6BEB85",
+                      "from":  "Windows/System32/hcproviders.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "hdwwiz.cpl",
+                      "size":  241152,
+                      "sha256":  "FBBED12C241D0823E03A676C4DB5B0E70A1BF1ABBF9933EB80F0B75A1B2D295A",
+                      "from":  "Windows/System32/hdwwiz.cpl",
+                      "built":  true
+                  },
+                  {
+                      "path":  "hgcpl.dll",
+                      "size":  331776,
+                      "sha256":  "9E9D6F8F567E98A7E86802EAFE1F61C880E849712BF0154C268E5D9DB2D0F24E",
+                      "from":  "Windows/System32/hgcpl.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "iconcodecservice.dll",
+                      "size":  14336,
+                      "sha256":  "99EA4DDD88D9C4A4CC9B238F533CB4D2C062D46239173997E8594D8A75811A01",
+                      "from":  "Windows/System32/IconCodecService.dll"
+                  },
+                  {
+                      "path":  "iertutil.dll",
+                      "size":  2910720,
+                      "sha256":  "97339025A2093AFD52747297B19428E7CA6766C5BAB3045AF803F7B3DD272B4C",
+                      "from":  "Windows/System32/iertutil.dll"
+                  },
+                  {
+                      "path":  "imapi2.dll",
+                      "size":  503808,
+                      "sha256":  "4DD405500589681864E69B523B5DA3ED255AE9B9A874A5D45520001DAF4C7EDC",
+                      "from":  "Windows/System32/imapi2.dll"
+                  },
+                  {
+                      "path":  "inetcpl.cpl",
+                      "size":  2132480,
+                      "sha256":  "BDA3E6796339F9708CD79CA491094F603ED7022F9ED239DA5ED828B5360E8414",
+                      "from":  "Windows/System32/inetcpl.cpl",
+                      "built":  true
+                  },
+                  {
+                      "path":  "infocardcpl.cpl",
+                      "size":  45912,
+                      "sha256":  "17D13218FB855092AB01BEFCED01EEBBF92F6D82E97C498446DC7DCA1394E11E",
+                      "from":  "Windows/System32/infocardcpl.cpl"
+                  },
+                  {
+                      "path":  "intl.cpl",
+                      "size":  373248,
+                      "sha256":  "0C3DB250532ED026F0BF95FD274F8FB1E4F1BC2EC0EBDD2ACEF5FD250EDBC383",
+                      "from":  "Windows/System32/intl.cpl",
+                      "built":  true
+                  },
+                  {
+                      "path":  "irprops.cpl",
+                      "size":  425472,
+                      "sha256":  "481F805E1E49A54742B3F66D9A0BCD2184372A1B7FEC34CD1E1DA9601B058723",
+                      "from":  "Windows/System32/irprops.cpl",
+                      "built":  true
+                  },
+                  {
+                      "path":  "iscsicpl.dll",
+                      "size":  234496,
+                      "sha256":  "42161329D5AFBCE18165ACD58F2716BC1B9E6BDF24CBE48F481372DCCF696FA7",
+                      "from":  "Windows/System32/iscsicpl.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "joy.cpl",
+                      "size":  143872,
+                      "sha256":  "0DF555D52A07C88C85271894903F15475A1D1B9CCF68A1023277026A92498FAD",
+                      "from":  "Windows/System32/joy.cpl",
+                      "built":  true
+                  },
+                  {
+                      "path":  "Keel.Common-Controls\\comctl32.dll",
+                      "size":  2039296,
+                      "sha256":  "0E68DA2E59326A1773D2297A34AAC046036B97C0B58BE525285DFD3433411E46",
+                      "from":  "Windows/System32/comctl32.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "Keel.Common-Controls\\Keel.Common-Controls.manifest",
+                      "size":  2400,
+                      "sha256":  "ABC499F4C4D69C77315AC1EB0C9D4113E59D0EE0530A761F2724C3033E453E2B",
+                      "built":  true
+                  },
+                  {
+                      "path":  "keel32.dll",
+                      "size":  9216,
+                      "sha256":  "C26C741733BD07522211B4E08ACB5F17514713746892CAB582382F71CB6ED657",
+                      "built":  true
+                  },
+                  {
+                      "path":  "keelaux.dll",
+                      "size":  2048,
+                      "sha256":  "54F9526D28A1BD9F212F60C72EE5DB5FC7A8B69B16D5C8BAD1D0D088DCCD1A11",
+                      "built":  true
+                  },
+                  {
+                      "path":  "keelkr32.dll",
+                      "size":  12800,
+                      "sha256":  "50709BD1B8B0AAC3E7F9241785151265EE6BCC18C5899AD7C51BAB5F6B05C29C",
+                      "built":  true
+                  },
+                  {
+                      "path":  "keelstub.dll",
+                      "size":  8192,
+                      "sha256":  "FF957FC27467BA703ADBBCD5D74B37EFDABBEB4FE11E5B1B2C53558D5789E9BE",
+                      "built":  true
+                  },
+                  {
+                      "path":  "kntdl.dll",
+                      "size":  5632,
+                      "sha256":  "916B68CABAC0C45DEED68A0C7835C6DA7D3650CDCB2A369DEEF19759814B5D5A",
+                      "built":  true
+                  },
+                  {
+                      "path":  "linkinfo.dll",
+                      "size":  29696,
+                      "sha256":  "D93A40ABD93FFF55BD94E8BCB098742B7B79B547292A10C7EB5649BAC8284827",
+                      "from":  "Windows/System32/linkinfo.dll"
+                  },
+                  {
+                      "path":  "main.cpl",
+                      "size":  497664,
+                      "sha256":  "471BF5753560004B188BA14AFAFBD7D51483152F40DE67432471E577D5257F25",
+                      "from":  "Windows/System32/main.cpl",
+                      "built":  true
+                  },
+                  {
+                      "path":  "mmsys.cpl",
+                      "size":  850944,
+                      "sha256":  "A858DC37E83893CD205D389860F7978F50A153C6FE20519F87ED21ABA81EC05E",
+                      "from":  "Windows/System32/mmsys.cpl",
+                      "built":  true
+                  },
+                  {
+                      "path":  "msftedit.dll",
+                      "size":  799744,
+                      "sha256":  "D701815EE594762A39C6667B47158A61A6A882EBBE7D83BDBBC3FFE3C9BF572D",
+                      "from":  "Windows/System32/msftedit.dll"
+                  },
+                  {
+                      "path":  "ncpa.cpl",
+                      "size":  101376,
+                      "sha256":  "CD190851C2EEA3C39CEAA035E77D202E73EC4BCEE43E773E9F12940F1CFB18FD",
+                      "from":  "Windows/System32/ncpa.cpl",
+                      "built":  true
+                  },
+                  {
+                      "path":  "netcenter.dll",
+                      "size":  1689088,
+                      "sha256":  "1990362C550EFB31F275B0DF13CBC04C47B661D2587E745ED5D7EB396BC14B4E",
+                      "from":  "Windows/System32/netcenter.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "netprofm.dll",
+                      "size":  459264,
+                      "sha256":  "C00361B01EBC3903EC4DD0F0DC9888BB0723C92902D785A9BAD7CC9D521E31DA",
+                      "from":  "Windows/System32/netprofm.dll"
+                  },
+                  {
+                      "path":  "netshell.dll",
+                      "size":  2650624,
+                      "sha256":  "927706E55C67123EEB5DD3209CE743E6F36E31EF127B9A053538FAE953A4E615",
+                      "from":  "Windows/System32/netshell.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "networkexplorer.dll",
+                      "size":  1672704,
+                      "sha256":  "5B140D7E42FDB9A20A0C046429FE49F7D9E8D0FCEA5F0493BAEAD5B250F7186F",
+                      "from":  "Windows/System32/networkexplorer.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "NetworkMap.dll",
+                      "size":  2146816,
+                      "sha256":  "D562ED7F470ABC570BC3318D3856B96B1B1E6666D4C8369E0806FF084B33DAEA",
+                      "from":  "Windows/System32/networkmap.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "npmproxy.dll",
+                      "size":  31744,
+                      "sha256":  "30D7D8E86C8A390556B6E89E0E041CC5D0BF77F299ABFFFE1A4A441E46D603C9",
+                      "from":  "Windows/System32/npmproxy.dll"
+                  },
+                  {
+                      "path":  "ntshrui.dll",
+                      "size":  510464,
+                      "sha256":  "49B32027EFFC1B1CB49D3E46F845CA28E543C26AFA7DA54FEE54A99C9A905EF0",
+                      "from":  "Windows/System32/ntshrui.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "OnLineIDCpl.dll",
+                      "size":  221696,
+                      "sha256":  "6A91E784A1F540D96825A41459B8931E24341DE578649E54DA94C46CB5B43754",
+                      "from":  "Windows/System32/OnLineIDCpl.dll"
+                  },
+                  {
+                      "path":  "OobeFldr.dll",
+                      "size":  898048,
+                      "sha256":  "53A21909537A092A26F8F0275AD6055E45F02461E41FC3DDDD5D676348508E35",
+                      "from":  "Windows/System32/OobeFldr.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "PerfCenterCPL.dll",
+                      "size":  658432,
+                      "sha256":  "3C86BC9C1090BB5AD2B072AE6FDBE49E4E1D185A4786E3511B9841E19D449651",
+                      "from":  "Windows/System32/PerfCenterCPL.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "pnidui.dll",
+                      "size":  1808384,
+                      "sha256":  "CE91DE6303260CE20A1F3A373DC2A8E9CD92EAFBB9265295FD747E27505DBCFC",
+                      "from":  "Windows/System32/pnidui.dll"
+                  },
+                  {
+                      "path":  "portabledeviceapi.dll",
+                      "size":  758272,
+                      "sha256":  "2DB11E7C631A9887CB75AFEAD2C79EC65F82C51F5F073CEFC8CDDF664EFF29C1",
+                      "from":  "Windows/System32/PortableDeviceApi.dll"
+                  },
+                  {
+                      "path":  "portabledevicetypes.dll",
+                      "size":  219648,
+                      "sha256":  "6D4118A627CAE509E43D0CC0062EECAA0990C955BB15AE24834460551B2F51A2",
+                      "from":  "Windows/System32/PortableDeviceTypes.dll"
+                  },
+                  {
+                      "path":  "powercfg.cpl",
+                      "size":  173568,
+                      "sha256":  "BDC25C8DD529802E5992E648E64EAD41405C6507A51FC4C71B9EEB5CA71F8026",
+                      "from":  "Windows/System32/powercfg.cpl",
+                      "built":  true
+                  },
+                  {
+                      "path":  "powercpl.dll",
+                      "size":  486400,
+                      "sha256":  "95AF0DE788F1F36BC367D2C36794EB76CACA1D7E256462E750E143D26D394947",
+                      "from":  "Windows/System32/powercpl.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "prnfldr.dll",
+                      "size":  417280,
+                      "sha256":  "C965C6FC00A7C3719E5152D243DADD1895E8526291EA2BAE15B3F053F73295CF",
+                      "from":  "Windows/System32/prnfldr.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "propsys.dll",
+                      "size":  1212416,
+                      "sha256":  "073250A1DE25F6388AFE9CF1BDC27D6AA4B75E20153054ED349567609E472FEF",
+                      "from":  "Windows/System32/propsys.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "provsvc.dll",
+                      "size":  187904,
+                      "sha256":  "7D34A742AC486294D82676F8465A3EF26C8AC3317C32B63F62031CB007CFC208",
+                      "from":  "Windows/System32/provsvc.dll"
+                  },
+                  {
+                      "path":  "qutil.dll",
+                      "size":  107520,
+                      "sha256":  "21138F161EEEA46198890C7A2D073F2C82829E15676131BDAD9F237EDC7477CD",
+                      "from":  "Windows/System32/QUTIL.DLL"
+                  },
+                  {
+                      "path":  "racpldlg.dll",
+                      "size":  118784,
+                      "sha256":  "B6D83596560FE2C1D1D42E107BF29BAE90F7CBAEBD7FC85A5A06120AE51BF82B",
+                      "from":  "Windows/System32/racpldlg.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "rasgcw.dll",
+                      "size":  757760,
+                      "sha256":  "5C715EEA0385602E5A62C0D84E2EEF1D452647626E41EF5254F15E7CE602101F",
+                      "from":  "Windows/System32/rasgcw.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "RasMM.dll",
+                      "size":  866816,
+                      "sha256":  "588CA4582AAC716E93F7A26E53786FE25B02DFFDF12609D01562439BF54EE3FD",
+                      "from":  "Windows/System32/RASMM.dll"
+                  },
+                  {
+                      "path":  "ReAgent.dll",
+                      "size":  313856,
+                      "sha256":  "A2DA266763805BDD5F6994A0A62F619F7FB4E095A42F8C4E7DE57FAEDAAD6501",
+                      "from":  "Windows/System32/ReAgent.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "recovery.dll",
+                      "size":  146432,
+                      "sha256":  "1D9662FFC8E018BAC66BAD459091EECAEE4FA6072E84E25AAFF87860440634C6",
+                      "from":  "Windows/System32/recovery.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "rundll32.exe",
+                      "size":  145408,
+                      "sha256":  "71F430233FEA8BB3B23C5FACEF5563E549F8D8CDF799ADCA89D2CFA141F4DFDF",
+                      "from":  "Windows/System32/rundll32.exe",
+                      "built":  true
+                  },
+                  {
+                      "path":  "sdcpl.dll",
+                      "size":  761856,
+                      "sha256":  "D5C0F1BF6222F4DA7FCE8236595D8E6F5854819E426A0DA2AD78DBBCD72DD266",
+                      "from":  "Windows/System32/sdcpl.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "searchfolder.dll",
+                      "size":  899072,
+                      "sha256":  "F352BE8D614A5D23EE08AFC9072DB577FE0626896756DD53CD7E15EBCC8670D7",
+                      "from":  "Windows/System32/SearchFolder.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "SensorsCpl.dll",
+                      "size":  2250752,
+                      "sha256":  "3886FBA7D884EE8C43A3FA98550B8E3B800372718E01F22172225697CE7350A8",
+                      "from":  "Windows/System32/SensorsCpl.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "shacct.dll",
+                      "size":  135168,
+                      "sha256":  "8F63F78294F5585D599A114AF449DCC447CCB239D0F0B490BFE6B34A2146E730",
+                      "from":  "Windows/System32/shacct.dll"
+                  },
+                  {
+                      "path":  "sharemediacpl.dll",
+                      "size":  357888,
+                      "sha256":  "B0C98B0F2ED7EFF5AD913D15B301220D611953FEE3A90165D609E3023A61B0E5",
+                      "from":  "Windows/System32/sharemediacpl.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "shdocvw.dll",
+                      "size":  196608,
+                      "sha256":  "9ACE5C8D2231EBB25EA4C3D9E121FC657B655AB6F98F8AE98717D6FB99CC637A",
+                      "from":  "Windows/System32/shdocvw.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "shell32.dll",
+                      "size":  14184960,
+                      "sha256":  "AE0B151D2EE1F9A2B76446B62BD915774C35ED7364A0EDAAE1F3695E76D22C8B",
+                      "from":  "Windows/System32/shell32.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "shellstyle.dll",
+                      "size":  350720,
+                      "sha256":  "B887F47F4EA0F63D3095F99020D8D391062D99722E812530F0F674FF8B7E237C",
+                      "from":  "Windows/Resources/Themes/Aero/Shell/NormalColor/shellstyle.dll"
+                  },
+                  {
+                      "path":  "shlwapi.dll",
+                      "size":  450048,
+                      "sha256":  "81EDBF56B905631B2A09B3F1462F9A09547A30FCE3554E5F5404FE88C028F0C2",
+                      "from":  "Windows/System32/shlwapi.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "slc.dll",
+                      "size":  30720,
+                      "sha256":  "90A88986C8C5F30FB153EC803FEDA6572B2C2630A6C9578FCC017800692694D5",
+                      "from":  "Windows/System32/slc.dll"
+                  },
+                  {
+                      "path":  "sndvolsso.dll",
+                      "size":  226304,
+                      "sha256":  "161BD901A12CC1B98C548714121ACA77FCCDD7114AA6502C2642A6184E529A46",
+                      "from":  "Windows/System32/SndVolSSO.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "srchadmin.dll",
+                      "size":  340992,
+                      "sha256":  "103BF45CBCB714FF784BBFFE6981FD3CAE0AF711B1725628B7DB7AF3009D54B4",
+                      "from":  "Windows/System32/srchadmin.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "stobject.dll",
+                      "size":  256512,
+                      "sha256":  "7DA931A4E5FBFFCDB26BE59B0F86FD8D26D536F076D88027E9975A17D0FE7BB2",
+                      "from":  "Windows/System32/stobject.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "structuredquery.dll",
+                      "size":  486912,
+                      "sha256":  "44E116A72669D3D9E75D7B3874577E7C101B3623CA099F2BD31FB2C3FAA102F4",
+                      "from":  "Windows/System32/StructuredQuery.dll"
+                  },
+                  {
+                      "path":  "synccenter.dll",
+                      "size":  2262016,
+                      "sha256":  "24D1B790330CC07E3432BA08A045A8F1D8A1B786EF8DF0EBF9AC86F28C79A789",
+                      "from":  "Windows/System32/SyncCenter.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "syncreg.dll",
+                      "size":  73728,
+                      "sha256":  "0A82A475301202791A7C10F978F952EAB7DB146A702D4EA67E24E2C98BC19638",
+                      "from":  "Windows/System32/Syncreg.dll"
+                  },
+                  {
+                      "path":  "sysdm.cpl",
+                      "size":  352768,
+                      "sha256":  "689B90C213CAF10D524D34967A12C346723F72131D4D2462ED830CAAC580A49B",
+                      "from":  "Windows/System32/sysdm.cpl",
+                      "built":  true
+                  },
+                  {
+                      "path":  "systemcpl.dll",
+                      "size":  419328,
+                      "sha256":  "87C45FB85326120478D84495A20F4494A828A03233190A245BC6477693CA2F86",
+                      "from":  "Windows/System32/systemcpl.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "TabletPC.cpl",
+                      "size":  683520,
+                      "sha256":  "3C95AE0F866ADBC3EFAAAD9F9DEFB918AF5EF0EBA8E7E18144332A6D586633EB",
+                      "from":  "Windows/System32/TabletPC.cpl",
+                      "built":  true
+                  },
+                  {
+                      "path":  "taskbarcpl.dll",
+                      "size":  243712,
+                      "sha256":  "8764F75AD1C494297294B695862BB1E6AFE166B15EC96D06297F5051D0ED4AEF",
+                      "from":  "Windows/System32/taskbarcpl.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "telephon.cpl",
+                      "size":  108032,
+                      "sha256":  "90EE37EC5BCA7240A965F7E7DE288EF785E61756495A10A0E6BAC41CE7D9CE7B",
+                      "from":  "Windows/System32/telephon.cpl"
+                  },
+                  {
+                      "path":  "themecpl.dll",
+                      "size":  2193408,
+                      "sha256":  "D94F314A26DD08611E8E40FAC4A021A2DA9F5F23894EBD4EAEEF40FB1DC50546",
+                      "from":  "Windows/System32/themecpl.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "themeui.dll",
+                      "size":  2851840,
+                      "sha256":  "B0C821B409C9206593029F76D7566C3D31F5ED2FC86D5CC3690D80DB59BB2D33",
+                      "from":  "Windows/System32/themeui.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "thumbcache.dll",
+                      "size":  112640,
+                      "sha256":  "011413B236CAD7B78CE0A0EEC3E3085D48C7576A3205D025BA6EBFDF590538E4",
+                      "from":  "Windows/System32/thumbcache.dll"
+                  },
+                  {
+                      "path":  "timedate.cpl",
+                      "size":  515072,
+                      "sha256":  "0E45957532B8486D92B4E6A0F7D6E7F121F23465599E88E9B8C61A1D2AFC5114",
+                      "from":  "Windows/System32/timedate.cpl",
+                      "built":  true
+                  },
+                  {
+                      "path":  "uDWM.dll",
+                      "size":  328704,
+                      "sha256":  "4EE677064B3E05C7469BBB883B8F720B91D5DB5AD7ABE09DCFD9FF4780C1C323",
+                      "from":  "Windows/System32/uDWM.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "urlmon.dll",
+                      "size":  1566208,
+                      "sha256":  "BD19F93642A2E5CFF5F20A05EE40888BB877969EE836BDA680AFF32679EA7421",
+                      "from":  "Windows/System32/urlmon.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "usercpl.dll",
+                      "size":  625664,
+                      "sha256":  "B9A2AFBAD65AC2E0123B69641C4F7050CB3C72F372B4A29CE11E12E64875A73D",
+                      "from":  "Windows/System32/usercpl.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "uxtheme.dll",
+                      "size":  331776,
+                      "sha256":  "BA6A7FE48D3356AA0107AF56C4DED8DB6E34A6B283C95CCEDEC9676BF8440E6A",
+                      "from":  "Windows/System32/uxtheme.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "uxtheme.dll.mui",
+                      "size":  7168,
+                      "sha256":  "335455BA372A01CD4F40F087DF098B53628A554763B783DE9187C68E7C0F9619",
+                      "from":  "Windows/System32/en-US/uxtheme.dll.mui"
+                  },
+                  {
+                      "path":  "van.dll",
+                      "size":  691200,
+                      "sha256":  "F215B596FC9B3CA72C0459DDE368576117D3B29D82476E5C3C13617030133788",
+                      "from":  "Windows/System32/VAN.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "Vault.dll",
+                      "size":  1098240,
+                      "sha256":  "CD6A86CEB79803320CC321A769978695D20F23234F10688A2E69D4C147D72706",
+                      "from":  "Windows/System32/Vault.dll"
+                  },
+                  {
+                      "path":  "vaultcli.dll",
+                      "size":  41984,
+                      "sha256":  "3FC426115FF87570889DB28D71970B82B525D2A4B9A00EDD273BF083B77A05CE",
+                      "from":  "Windows/System32/vaultcli.dll"
+                  },
+                  {
+                      "path":  "wcnwiz.dll",
+                      "size":  1097728,
+                      "sha256":  "8E1681125FB143EABDEA373979355B662E3FEB474FE414C94072A9972706FEDD",
+                      "from":  "Windows/System32/wcnwiz.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "werconcpl.dll",
+                      "size":  1281536,
+                      "sha256":  "062A2293CD8D01E87DDB99DB9581ADA974B2F00B3B6B0FC52A7026A1F8F74B9B",
+                      "from":  "Windows/System32/werconcpl.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "wercplsupport.dll",
+                      "size":  86016,
+                      "sha256":  "2948C14F0B56B0CDE3AA2D67F5A45A21A6AED56E527773BCDE89DCD021CC520B",
+                      "from":  "Windows/System32/wercplsupport.dll"
+                  },
+                  {
+                      "path":  "wininet.dll",
+                      "size":  4859392,
+                      "sha256":  "F054D031A2E157C2AC7B62FB1685AF22DD801E4D95EA7D57FA1890D1F816050E",
+                      "from":  "Windows/System32/wininet.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "wlanconn.dll",
+                      "size":  712192,
+                      "sha256":  "626974EF561185F4DE076E913895EF3B200C7EF933E329BCC79B189950884652",
+                      "from":  "Windows/System32/WLanConn.dll"
+                  },
+                  {
+                      "path":  "wlandlg.dll",
+                      "size":  500736,
+                      "sha256":  "AC3933A452C7B671450738C3200251ED44473E9441ACBAA16A0C0DF20F31CBAB",
+                      "from":  "Windows/System32/wlandlg.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "WlanMM.dll",
+                      "size":  832512,
+                      "sha256":  "3C1422A50AFFF25DFCEC0BBA5E8343B0CF1F67FA686C23F4F2FB8D2EC968DE9D",
+                      "from":  "Windows/System32/WlanMM.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "wlanpref.dll",
+                      "size":  1441280,
+                      "sha256":  "73EF3B7FEEB1AF859BC29FAFC669790CEC0DB20DCA57B00310BCCB05A53F5BED",
+                      "from":  "Windows/System32/wlanpref.dll"
+                  },
+                  {
+                      "path":  "wlanui.dll",
+                      "size":  414208,
+                      "sha256":  "778E5837355D624AC61F5F92C10ABFB3CD279BDD2D18B0503219FEBDC4ADD083",
+                      "from":  "Windows/System32/wlanui.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "wpccpl.dll",
+                      "size":  812032,
+                      "sha256":  "DAEF58DD2FD2AC17037AE94B683A5A408A09B415014597CF04001145BE8DD2BA",
+                      "from":  "Windows/System32/wpccpl.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "wpdshserviceobj.dll",
+                      "size":  115200,
+                      "sha256":  "00D3393B23235D62931CF6129D637A133F42BCEE937A449663D5536164410EA8",
+                      "from":  "Windows/System32/WPDShServiceObj.dll"
+                  },
+                  {
+                      "path":  "wpdwcn.dll",
+                      "size":  214528,
+                      "sha256":  "4F157F80AE7C830FF34D682F80F38300D7F94DE77F2D91BED78243680C5EABD4",
+                      "from":  "Windows/System32/wpdwcn.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "wscapi.dll",
+                      "size":  63488,
+                      "sha256":  "7712687ABAEF6616E90AE5A321044C102E79EC23F4A1EAFB4278C93724873CB3",
+                      "from":  "Windows/System32/wscapi.dll"
+                  },
+                  {
+                      "path":  "wscinterop.dll",
+                      "size":  146432,
+                      "sha256":  "BFFB1A5917EC1EDAF6B58EAFD888575299365D09C734FACF5A7D1843680DDFD8",
+                      "from":  "Windows/System32/wscinterop.dll"
+                  },
+                  {
+                      "path":  "wscui.cpl",
+                      "size":  1161728,
+                      "sha256":  "0CF52B6E349B533B8AA4487F58E19BB041C9BB6C81BE3B974AC63498FC57CA7A",
+                      "from":  "Windows/System32/wscui.cpl",
+                      "built":  true
+                  },
+                  {
+                      "path":  "wucltux.dll",
+                      "size":  3165184,
+                      "sha256":  "45FB5FD801FDE6517B0D51CD3D56A60173E47231ED75D2A70DF93D3573BCF65C",
+                      "from":  "Windows/System32/wucltux.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "wwanconn.dll",
+                      "size":  222720,
+                      "sha256":  "CBF79EA717BD4EFC89A8327483131E0BC376E192A84935BDEEA6317B14350AFF",
+                      "from":  "Windows/System32/wwanconn.dll"
+                  },
+                  {
+                      "path":  "wwanmm.dll",
+                      "size":  693248,
+                      "sha256":  "7355B005BD07200DF28D7D90C4F2B10054B239589E7282EC991D06A6C5CAD786",
+                      "from":  "Windows/System32/wwanmm.dll"
+                  },
+                  {
+                      "path":  "xwizards.dll",
+                      "size":  432640,
+                      "sha256":  "C0AA615E5F45EAEDFB9A7AF8177F1D3F3BDEDEC720D47BDE5205260B62D7B1A7",
+                      "from":  "Windows/System32/xwizards.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "xwtpdui.dll",
+                      "size":  201216,
+                      "sha256":  "ABACF07A839E924DFA669A72FC4EE5D8FA83960725594521AECF42602FC31D5E",
+                      "from":  "Windows/System32/xwtpdui.dll",
+                      "built":  true
+                  },
+                  {
+                      "path":  "xwtpw32.dll",
+                      "size":  129536,
+                      "sha256":  "F7F333F70D817E7B4A568EA272A0A0FA88426E6F5D16E1CFD365690CE29F02BC",
+                      "from":  "Windows/System32/xwtpw32.dll",
+                      "built":  true
+                  }
+              ]
+}

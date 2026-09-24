@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  KeelShim - Windows 7 user-mode UI translation for the Windows 10 kernel
+  Copyright (C) 2026 Kevin Dalli <projectkeel@gmail.com>
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+-->
+
+<!-- answer file for the Keel installer ISO, built by tools\make-keel-iso.ps1 -->
+<unattend xmlns="urn:schemas-microsoft-com:unattend"
+    xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State">
+
+    <settings pass="windowsPE">
+        <component name="Microsoft-Windows-International-Core-WinPE"
+            processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"
+            language="neutral" versionScope="nonSxS">
+            <InputLocale>en-US</InputLocale>
+            <SystemLocale>en-US</SystemLocale>
+            <UserLocale>en-US</UserLocale>
+            <UILanguage>en-US</UILanguage>
+        </component>
+
+        <component name="Microsoft-Windows-Setup"
+            processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"
+            language="neutral" versionScope="nonSxS">
+            <!-- no DiskConfiguration or ImageInstall on purpose so Setup asks, which works on BIOS and UEFI and never wipes a disk holding another OS -->
+            <UserData>
+                <AcceptEula>true</AcceptEula>
+                <FullName>Keel</FullName>
+                <Organization>Keel</Organization>
+            </UserData>
+        </component>
+    </settings>
+
+    <settings pass="specialize">
+        <component name="Microsoft-Windows-Shell-Setup"
+            processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"
+            language="neutral" versionScope="nonSxS">
+            <ComputerName>KEEL</ComputerName>
+        </component>
+        <component name="Microsoft-Windows-Deployment"
+            processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"
+            language="neutral" versionScope="nonSxS">
+            <RunSynchronous>
+                <!-- Defender goes off during specialize, the only moment the machine can do this to itself since Tamper Protection refuses it later -->
+                <RunSynchronousCommand wcm:action="add">
+                    <Order>1</Order>
+                    <Description>Defender policy: disable</Description>
+                    <Path>reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f</Path>
+                </RunSynchronousCommand>
+                <RunSynchronousCommand wcm:action="add">
+                    <Order>2</Order>
+                    <Description>Defender policy: disable antivirus</Description>
+                    <Path>reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender" /v DisableAntiVirus /t REG_DWORD /d 1 /f</Path>
+                </RunSynchronousCommand>
+                <RunSynchronousCommand wcm:action="add">
+                    <Order>3</Order>
+                    <Description>Defender policy: real-time protection off</Description>
+                    <Path>reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection" /v DisableRealtimeMonitoring /t REG_DWORD /d 1 /f</Path>
+                </RunSynchronousCommand>
+                <RunSynchronousCommand wcm:action="add">
+                    <Order>4</Order>
+                    <Description>Defender policy: behaviour monitoring off</Description>
+                    <Path>reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection" /v DisableBehaviorMonitoring /t REG_DWORD /d 1 /f</Path>
+                </RunSynchronousCommand>
+                <RunSynchronousCommand wcm:action="add">
+                    <Order>5</Order>
+                    <Description>Defender policy: no cloud reporting</Description>
+                    <Path>reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Spynet" /v SpyNetReporting /t REG_DWORD /d 0 /f</Path>
+                </RunSynchronousCommand>
+                <RunSynchronousCommand wcm:action="add">
+                    <Order>6</Order>
+                    <Description>Defender policy: no sample submission</Description>
+                    <Path>reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Spynet" /v SubmitSamplesConsent /t REG_DWORD /d 2 /f</Path>
+                </RunSynchronousCommand>
+                <RunSynchronousCommand wcm:action="add">
+                    <Order>7</Order>
+                    <Description>Defender policy: no block at first seen</Description>
+                    <Path>reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Windows Defender\Spynet" /v DisableBlockAtFirstSeen /t REG_DWORD /d 1 /f</Path>
+                </RunSynchronousCommand>
+                <RunSynchronousCommand wcm:action="add">
+                    <Order>8</Order>
+                    <Description>Defender tamper protection off</Description>
+                    <Path>reg.exe add "HKLM\SOFTWARE\Microsoft\Windows Defender\Features" /v TamperProtection /t REG_DWORD /d 0 /f</Path>
+                </RunSynchronousCommand>
+                <RunSynchronousCommand wcm:action="add">
+                    <Order>9</Order>
+                    <Description>WinDefend service disabled</Description>
+                    <Path>reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\WinDefend" /v Start /t REG_DWORD /d 4 /f</Path>
+                </RunSynchronousCommand>
+                <RunSynchronousCommand wcm:action="add">
+                    <Order>10</Order>
+                    <Description>WdNisSvc service disabled</Description>
+                    <Path>reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\WdNisSvc" /v Start /t REG_DWORD /d 4 /f</Path>
+                </RunSynchronousCommand>
+                <RunSynchronousCommand wcm:action="add">
+                    <Order>11</Order>
+                    <Description>WdFilter driver disabled</Description>
+                    <Path>reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\WdFilter" /v Start /t REG_DWORD /d 4 /f</Path>
+                </RunSynchronousCommand>
+                <RunSynchronousCommand wcm:action="add">
+                    <Order>12</Order>
+                    <Description>WdBoot ELAM driver disabled</Description>
+                    <Path>reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\WdBoot" /v Start /t REG_DWORD /d 4 /f</Path>
+                </RunSynchronousCommand>
+                <RunSynchronousCommand wcm:action="add">
+                    <Order>13</Order>
+                    <Description>WdNisDrv driver disabled</Description>
+                    <Path>reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\WdNisDrv" /v Start /t REG_DWORD /d 4 /f</Path>
+                </RunSynchronousCommand>
+                <RunSynchronousCommand wcm:action="add">
+                    <Order>14</Order>
+                    <Description>Security Health service disabled</Description>
+                    <Path>reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\SecurityHealthService" /v Start /t REG_DWORD /d 4 /f</Path>
+                </RunSynchronousCommand>
+                <RunSynchronousCommand wcm:action="add">
+                    <Order>15</Order>
+                    <Description>test signing on (keeldrv is test-signed)</Description>
+                    <Path>bcdedit.exe /set testsigning on</Path>
+                </RunSynchronousCommand>
+                <RunSynchronousCommand wcm:action="add">
+                    <Order>16</Order>
+                    <Description>apply the Keel stack (Win7 registry merge + shell swap + driver)</Description>
+                    <Path>powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Keel\vm\first-boot.ps1 -NoReboot</Path>
+                </RunSynchronousCommand>
+            </RunSynchronous>
+        </component>
+    </settings>
+
+    <settings pass="oobeSystem">
+        <component name="Microsoft-Windows-Shell-Setup"
+            processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35"
+            language="neutral" versionScope="nonSxS">
+            <AutoLogon>
+                <Password><Value>1111</Value><PlainText>true</PlainText></Password>
+                <Enabled>true</Enabled>
+                <Username>keel</Username>
+                <LogonCount>999</LogonCount>
+            </AutoLogon>
+            <UserAccounts>
+                <AdministratorPassword><Value>1111</Value><PlainText>true</PlainText></AdministratorPassword>
+                <LocalAccounts>
+                    <LocalAccount wcm:action="add">
+                        <Name>keel</Name>
+                        <DisplayName>Keel</DisplayName>
+                        <Group>Administrators;Users</Group>
+                        <Password><Value>1111</Value><PlainText>true</PlainText></Password>
+                    </LocalAccount>
+                </LocalAccounts>
+            </UserAccounts>
+            <OOBE>
+                <ProtectYourPC>3</ProtectYourPC>
+                <HideEULAPage>true</HideEULAPage>
+                <HideOEMRegistrationScreen>true</HideOEMRegistrationScreen>
+                <HideOnlineAccountScreens>true</HideOnlineAccountScreens>
+                <HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
+                <SkipUserOOBE>true</SkipUserOOBE>
+                <SkipMachineOOBE>true</SkipMachineOOBE>
+                <NetworkLocation>Home</NetworkLocation>
+            </OOBE>
+            <TimeZone>UTC</TimeZone>
+            <FirstLogonCommands>
+                <SynchronousCommand wcm:action="add">
+                    <Order>1</Order>
+                    <Description>disable network selection popup</Description>
+                    <CommandLine>reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\Network\NewNetworkWindowOff" /f</CommandLine>
+                </SynchronousCommand>
+                <!-- the stack is not applied here since FirstLogonCommands never fire and run unelevated, so specialize runs first-boot.ps1 instead -->
+            </FirstLogonCommands>
+        </component>
+    </settings>
+</unattend>

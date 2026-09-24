@@ -1,0 +1,37 @@
+# Cut-3 seed set: the donor binaries Keel loads side-by-side (relative to Windows\System32 unless noted).
+# Lines starting with # are comments. Used by fetch-symbols.ps1 and census\imports.py.
+# --- compositor
+# (milcore.dll is Vista-only; Windows 7 SP1 media has no milcore.dll anywhere, dwmcore.dll is the core)
+dwm.exe
+dwmcore.dll
+udwm.dll
+dwmredir.dll
+dwmapi.dll
+# --- theme engine
+uxtheme.dll
+themeui.dll
+themeservice.dll
+# --- shell
+..\explorer.exe
+shell32.dll
+explorerframe.dll
+stobject.dll
+shdocvw.dll
+browseui.dll
+shlwapi.dll
+propsys.dll
+dui70.dll
+duser.dll
+imageres.dll
+authui.dll
+ntshrui.dll
+actxprxy.dll
+# --- host-side seams whose symbols we also want (present on both sides)
+user32.dll
+gdi32.dll
+ntdll.dll
+kernel32.dll
+kernelbase.dll
+win32u.dll
+d3d9.dll
+dxgi.dll
