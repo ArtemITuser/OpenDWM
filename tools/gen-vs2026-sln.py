@@ -84,7 +84,7 @@ BASE_DEFINES = ['UNICODE', '_UNICODE', '_WIN32_WINNT=0x0A00', 'WINVER=0x0A00',
 
 DRV_CHECK_TARGET = '''  <Target Name="KeelCheckDrvPlatform" BeforeTargets="PrepareForBuild">
     <Error Condition="'$(Platform)'=='x64' And '$(KeelDrvArch)'=='arm64ec'" Text="keeldrv: this WDK ships no x64 km libraries (only arm64ec). Build the ARM64EC configuration of keeldrv, or install a WDK with x64 km libs." />
-    <Error Condition="'$(Platform)'=='ARM64EC' And '$(KeelDrvArch)'!='arm64ec'" Text="keeldrv: no arm64ec km libraries found under $(KeelKitsRoot)\Lib\$(KeelSdkVer)\km" />
+    <Error Condition="'$(Platform)'=='ARM64EC' And '$(KeelDrvArch)'!='arm64ec'" Text="keeldrv: no arm64ec km libraries found under $(KeelKitsRoot)\\Lib\\$(KeelSdkVer)\\km" />
     <Message Importance="high" Text="keeldrv arch=$(KeelDrvArch) sdk=$(KeelSdkVer) kmdf=$(KeelKmdf) kits=$(KeelKitsRoot)" />
   </Target>
 '''
@@ -227,11 +227,19 @@ def solution(projects, folders):
     A('VisualStudioVersion = 18.0.1.1')
     A('MinimumVisualStudioVersion = 10.0.40219.1')
     for name, path in projects:
-        A('Project("%s" = "%s", "%s", "%s")' % (VCXPROJ_TYPE, name, xml_escape(path), guid_of(name)))
+        A('Project("%s") = "%s", "%s", "%s"' % (VCXPROJ_TYPE, name, xml_escape(path), guid_of(name)))
         A('EndProject')
     for f in folders:
-        A('Project("%s" = "%s", "%s", "%s")' % (FOLDER_TYPE, f, f, folder_guid(f)))
+        A('Project("%s") = "%s", "%s", "%s"' % (FOLDER_TYPE, f, f, folder_guid(f)))
         A('EndProject')
+
+    A('Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", '
+      '"Solution Items", "%s"' % folder_guid('Solution Items'))
+    A('ProjectSection(SolutionItems) = preProject')
+    A('\ttools\\gen-vs2026-sln.py = tools\\gen-vs2026-sln.py')
+    A('\tDirectory.Build.props = Directory.Build.props')
+    A('EndProject')
+    A('EndProject')
     A('Global')
     A('\tGlobalSection(SolutionConfigurationPlatforms) = preSolution')
     confplats = set()
