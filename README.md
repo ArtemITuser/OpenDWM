@@ -27,7 +27,7 @@ window manager or a desktop environment. Windows 7 handles all of that for us.
 you should not expect everything to be working perfectly and there are plenty
 of weird, obtuse, and downright annoying bugs that are going to be patched
 over time. There are and will be graphical bugs, crashes, glitches and weird
-behavior which make it unsutable without great manual modification for daily
+behavior which make it unsuitable without great manual modification for daily
 use. Futures you might expect to 'just work' might not work at all
 compared to Windows 10 or Windows 7 and are going to be ironed out
 over time.**
