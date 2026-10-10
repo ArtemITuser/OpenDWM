@@ -18,11 +18,18 @@ r"""Generate build/Keel.sln + build/vs/*.vcxproj so the tree builds natively in
 Visual Studio 2026 Community on Windows 11 25H2 (MSBuild, no CMake needed).
 
 Usage (on the Windows box):
-    tools\vs2026-setup.ps1              # installs VS2026 Community + provisions
-                                          the toolchain, then runs this script
+    powershell -ExecutionPolicy Bypass -File tools\vs2026-setup.ps1
+                                        # one-stop provisioning for VS2026 Community
+                                        # on Windows 11 25H2 (b26300+): winget install
+                                        # of missing prerequisites, Detours import libs,
+                                        # GUID cache refresh, solution smoke test
     py -3 tools\gen-vs2026-sln.py       # regenerate after editing CMakeLists.txt
     msbuild build\Keel.sln /p:Configuration=Debug /p:Platform=x64
     msbuild build\Keel.sln /p:Configuration=Debug /p:Platform=Win32   (x86 side)
+
+Project GUIDs are stable across regenerations via build\project-guids.json, so
+per-project IDE state (.vcxproj.user: startup project, debug arguments) never
+goes stale even when source lists move around.
 
 Design notes:
   * Mirrors src/CMakeLists.txt (x64) and src32/CMakeLists.txt (Win32): same
@@ -50,8 +57,37 @@ GUID_SOLUTION = '{7B7A52E4-9C3F-4D2B-8A61-5E2F1D0C9B8A}'
 VCXPROJ_TYPE = '{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}'
 FOLDER_TYPE = '{2150E333-8FDC-42A3-9474-1A3956D46DE8}'
 
+# Stable project GUIDs. uuid5(name) is already deterministic, but if a source
+# list moves between CMake targets the hash changes and VS silently orphans the
+# per-project .vcxproj.user state (startup project, debug args). So we cache
+# name -> guid in build/project-guids.json: existing entries are reused verbatim,
+# new projects get uuid5-of-a-fresh-random seed (which then stays pinned too).
+GUID_CACHE_FILE = os.path.join(BUILD, 'project-guids.json')
+_GUIDS = {}
+
+def load_guid_cache():
+    try:
+        import json
+        with open(GUID_CACHE_FILE, encoding='utf-8') as f:
+            data = json.load(f)
+        for k, v in data.items():
+            if isinstance(v, str) and re.fullmatch(r'\{[0-9A-Fa-f-]{36}\}', v):
+                _GUIDS[k] = v.upper()
+    except (OSError, ValueError):
+        pass   # first run / hand-deleted cache: fall back to derived GUIDs
+
+def save_guid_cache():
+    import json
+    with open(GUID_CACHE_FILE, 'w', encoding='utf-8', newline='\r\n') as f:
+        json.dump(_GUIDS, f, indent=2, sort_keys=True)
+        f.write('\n')
+
 def guid_of(key):
-    return '{' + str(uuid.uuid5(uuid.NAMESPACE_URL, 'keel-project/' + key)).upper() + '}'
+    g = _GUIDS.get(key)
+    if not g:
+        g = '{' + str(uuid.uuid5(uuid.NAMESPACE_URL, 'keel-project/' + key)).upper() + '}'
+        _GUIDS[key] = g
+    return g
 
 def folder_guid(f):
     return '{' + str(uuid.uuid5(uuid.NAMESPACE_URL, 'keel-folder/' + f)).upper() + '}'
@@ -84,7 +120,7 @@ BASE_DEFINES = ['UNICODE', '_UNICODE', '_WIN32_WINNT=0x0A00', 'WINVER=0x0A00',
 
 DRV_CHECK_TARGET = '''  <Target Name="KeelCheckDrvPlatform" BeforeTargets="PrepareForBuild">
     <Error Condition="'$(Platform)'=='x64' And '$(KeelDrvArch)'=='arm64ec'" Text="keeldrv: this WDK ships no x64 km libraries (only arm64ec). Build the ARM64EC configuration of keeldrv, or install a WDK with x64 km libs." />
-    <Error Condition="'$(Platform)'=='ARM64EC' And '$(KeelDrvArch)'!='arm64ec'" Text="keeldrv: no arm64ec km libraries found under $(KeelKitsRoot)\Lib\$(KeelSdkVer)\km" />
+    <Error Condition="'$(Platform)'=='ARM64EC' And '$(KeelDrvArch)'!='arm64ec'" Text="keeldrv: no arm64ec km libraries found under $(KeelKitsRoot)\\Lib\\$(KeelSdkVer)\\km" />
     <Message Importance="high" Text="keeldrv arch=$(KeelDrvArch) sdk=$(KeelSdkVer) kmdf=$(KeelKmdf) kits=$(KeelKitsRoot)" />
   </Target>
 '''
@@ -227,11 +263,23 @@ def solution(projects, folders):
     A('VisualStudioVersion = 18.0.1.1')
     A('MinimumVisualStudioVersion = 10.0.40219.1')
     for name, path in projects:
-        A('Project("%s" = "%s", "%s", "%s")' % (VCXPROJ_TYPE, name, xml_escape(path), guid_of(name)))
+        A('Project("%s") = "%s", "%s", "%s"' % (VCXPROJ_TYPE, name, xml_escape(path), guid_of(name)))
         A('EndProject')
     for f in folders:
-        A('Project("%s" = "%s", "%s", "%s")' % (FOLDER_TYPE, f, f, folder_guid(f)))
+        A('Project("%s") = "%s", "%s", "%s"' % (FOLDER_TYPE, f, f, folder_guid(f)))
         A('EndProject')
+
+    A('Project("%s") = "Solution Items", "Solution Items", "%s"'
+      % (FOLDER_TYPE, folder_guid('Solution Items')))
+    A('ProjectSection(SolutionItems) = preProject')
+    A('\t..\\tools\\gen-vs2026-sln.py = ..\\tools\\gen-vs2026-sln.py')
+    A('\t..\\tools\\vs2026-setup.ps1 = ..\\tools\\vs2026-setup.ps1')
+    A('\t..\\tools\\setup-toolchain.ps1 = ..\\tools\\setup-toolchain.ps1')
+    A('\tDirectory.Build.props = Directory.Build.props')
+    A('\tproject-guids.json = project-guids.json')
+    A('\t..\\README-VS.md = ..\\README-VS.md')
+    A('EndProjectSection')
+    A('EndProject')
     A('Global')
     A('\tGlobalSection(SolutionConfigurationPlatforms) = preSolution')
     confplats = set()
@@ -353,6 +401,7 @@ PROJ_PLATS = {}   # name -> [platforms], filled by main(); used by solution()
 
 def main():
     os.makedirs(VSDIR, exist_ok=True)
+    load_guid_cache()
     x64 = parse_cml(os.path.join(ROOT, 'src', 'CMakeLists.txt'))
     for sub in ('keelcommon', 'keelshim', 'keeltsf', 'keelldr', 'keelexp', 'keeltest',
                 'keelbroker', 'keeluxsms', 'keelr2test', 'keeldxprobe', 'keeldcprobe',
@@ -463,11 +512,12 @@ def main():
         emit(n + '.vcxproj', 'x86', vcxproj(n, cfgtype=cfg, plats=['Win32'],
              srcs=t['srcs'], libs=libs, subsystem=sub, **kw), ['Win32'])
 
-    # ---- build/Directory.Build.props + build/Keel.sln ----
+    # ---- build/Directory.Build.props + build/Keel.sln + GUID cache ----
     open(os.path.join(BUILD, 'Directory.Build.props'), 'w',
          encoding='utf-8', newline='\r\n').write(PROPS_XML)
     open(os.path.join(BUILD, 'Keel.sln'), 'w',
          encoding='utf-8', newline='\r\n').write(solution(projects, folders))
+    save_guid_cache()
 
     print('wrote build/Keel.sln (%d projects):' % len(projects))
     for name, path in projects:
