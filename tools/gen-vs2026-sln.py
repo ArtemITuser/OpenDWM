@@ -278,6 +278,8 @@ def solution(projects, folders):
     A('\tDirectory.Build.props = Directory.Build.props')
     A('\tproject-guids.json = project-guids.json')
     A('\t..\\README-VS.md = ..\\README-VS.md')
+    A('\t..\\README-ISO.md = ..\\README-ISO.md')
+    A('\t..\\tools\\make-keel-iso.ps1 = ..\\tools\\make-keel-iso.ps1')
     A('EndProjectSection')
     A('EndProject')
     A('Global')

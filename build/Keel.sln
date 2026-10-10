@@ -52,6 +52,8 @@ ProjectSection(SolutionItems) = preProject
 	Directory.Build.props = Directory.Build.props
 	project-guids.json = project-guids.json
 	..\README-VS.md = ..\README-VS.md
+	..\README-ISO.md = ..\README-ISO.md
+	..\tools\make-keel-iso.ps1 = ..\tools\make-keel-iso.ps1
 EndProjectSection
 EndProject
 Global
